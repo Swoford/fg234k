@@ -78,7 +78,8 @@
           hlookatmax="180"
           vlookatmin="-90"
           vlookatmax="90"
-          maxpixelzoom="1.0"
+          maxpixelzoom=""
+          fovmin="30"
           fovmax="90"
           fov="90.000000"
           hlookat="0.000000"
@@ -183,8 +184,10 @@
   <hotspot name="spotpoint41" devices="tablet|mobile" zorder2="1"/>
   <action name="onclickspotpoint41">
   
-        mainloadscene(pano10);
-      lookat(get(panoview.h), get(panoview.v), get(panoview.fov));
+        mainloadscene(pano10);
+
+      lookat(get(panoview.h), get(panoview.v), get(panoview.fov));
+
     
 
 
@@ -202,8 +205,10 @@
   <hotspot name="spotpoint42" devices="tablet|mobile" zorder2="1"/>
   <action name="onclickspotpoint42">
   
-        mainloadscene(pano11);
-      lookat(get(panoview.h), get(panoview.v), get(panoview.fov));
+        mainloadscene(pano11);
+
+      lookat(get(panoview.h), get(panoview.v), get(panoview.fov));
+
     
 
 
@@ -384,8 +389,10 @@
   <hotspot name="spotpoint19" devices="tablet|mobile" zorder2="1"/>
   <action name="onclickspotpoint19">
   
-        mainloadscene(pano9);
-      lookat(get(panoview.h), get(panoview.v), get(panoview.fov));
+        mainloadscene(pano9);
+
+      lookat(get(panoview.h), get(panoview.v), get(panoview.fov));
+
     
 
 
@@ -562,8 +569,11 @@
   <hotspot name="spotpoint45" devices="tablet|mobile" zorder2="1"/>
   <action name="onclickspotpoint45">
   
-        mainloadscene(pano9);
-      lookat(get(panoview.h), get(panoview.v), get(panoview.fov));
+        mainloadscene(pano9);
+
+      lookat(get(panoview.h), get(panoview.v), get(panoview.fov));
+
+
     
 
 
