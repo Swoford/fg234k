@@ -1,0 +1,769 @@
+<panotour version="2.3.0.400">
+ <project startSoundsON="true" startChangeCursor="true" workspaceOriginX="-1" workspaceOriginY="-1" startMouseType="moveto" startZoomOnCursor="false" startVolume="100" autorotationSpeed="5" startWithLittlePlanet="false" autorotationDelay="1" startTouchType="drag2d" autorotationDirection="right" workspaceScale="-1" autotourMode="autotourModeFull" workspaceHeight="231" startControlsHidden="false" hideControlsDuringIntroduction="true" relativePath="True" objectId="0" workspaceWidth="1366">
+  <description backgroundAlpha="255" foregroundColor="#000000" backgroundColor="#ffffff" name="New Project" foregroundAlpha="255"/>
+  <group x="544" y="20" thumbMode="False" objectId="12" explicit="False">
+   <description backgroundAlpha="255" foregroundColor="#ffffff" backgroundColor="#808080" name="Group 12" foregroundAlpha="255"/>
+   <pano tourDirectory="pano_9" x="-1" y="-1" maxPixelZoom="true" planar="false" vFov="180" lowres="true" startFov="90" minFov="1" hFov="360" maxFov="90" heading="87.19999999999783" phi="0" startYaw="0" dontGenerateTiles="false" startPitch="0" type="0" objectId="9">
+    <description backgroundAlpha="255" gpsAutospot="true" description="&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 24px; padding: 0px; outline: 0px; border: 0px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-variant-alternates: inherit; font-variant-position: inherit; font-variant-emoji: inherit; font-weight: 400; font-stretch: inherit; line-height: 24px; font-family: OpenSans-Light; font-optical-sizing: inherit; font-size-adjust: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; font-size: 16px; vertical-align: baseline; color: rgb(84, 83, 83); text-indent: 20px; letter-spacing: normal; orphans: 2; text-align: start; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;>&lt;font size=&quot;4&quot; face=&quot;Verdana&quot; style=&quot;box-sizing: border-box; margin: 0px; padding: 0px; outline: 0px;&quot;>Здесь берет начало улица Красноармейская, бывшая Зауральская (рельеф этой улицы, идущей вдоль пруда, напоминал Уральские взгорья).&lt;/font>&lt;/p>&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 24px; padding: 0px; outline: 0px; border: 0px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-variant-alternates: inherit; font-variant-position: inherit; font-variant-emoji: inherit; font-weight: 400; font-stretch: inherit; line-height: 24px; font-family: OpenSans-Light; font-optical-sizing: inherit; font-size-adjust: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; font-size: 16px; vertical-align: baseline; color: rgb(84, 83, 83); text-indent: 20px; letter-spacing: normal; orphans: 2; text-align: start; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;>&lt;font size=&quot;4&quot; face=&quot;Verdana&quot; style=&quot;box-sizing: border-box; margin: 0px; padding: 0px; outline: 0px;&quot;>В самом начале улицы - трансформаторная будка. Сейчас она не несёт в себе своих функций и является историческим объектом города, как одно из самых старинных сооружений, сохранившихся до наших дней.&lt;/font>&lt;/p>&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 24px; padding: 0px; outline: 0px; border: 0px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-variant-alternates: inherit; font-variant-position: inherit; font-variant-emoji: inherit; font-weight: 400; font-stretch: inherit; line-height: 24px; font-family: OpenSans-Light; font-optical-sizing: inherit; font-size-adjust: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; font-size: 16px; vertical-align: baseline; color: rgb(84, 83, 83); text-indent: 20px; letter-spacing: normal; orphans: 2; text-align: start; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;>&lt;font size=&quot;4&quot; face=&quot;Verdana&quot; style=&quot;box-sizing: border-box; margin: 0px; padding: 0px; outline: 0px;&quot;>Русло реки Омутной проходит около берега. Как течет река очень хорошо видно весной, когда пруд освобождается ото льда. Поэтому здесь была пристань с дровяными складами, где осуществлялась разгрузка и первичная разделка на дрова бревен, доставляемых по воде с помощью небольшого пароходика «Первенец».&lt;/font>&lt;/p>&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 24px; padding: 0px; outline: 0px; border: 0px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-variant-alternates: inherit; font-variant-position: inherit; font-variant-emoji: inherit; font-weight: 400; font-stretch: inherit; line-height: 24px; font-family: OpenSans-Light; font-optical-sizing: inherit; font-size-adjust: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; font-size: 16px; vertical-align: baseline; color: rgb(84, 83, 83); text-indent: 20px; letter-spacing: normal; orphans: 2; text-align: start; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;>&lt;font size=&quot;4&quot; face=&quot;Verdana&quot; style=&quot;box-sizing: border-box; margin: 0px; padding: 0px; outline: 0px;&quot;>Позднее это место оборудовали для гуляний. При входе на набережную поставили красивые деревянные ворота с надписью «Водная станция», закрепив название на долгие годы.&lt;/font>&lt;/p>&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 24px; padding: 0px; outline: 0px; border: 0px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-variant-alternates: inherit; font-variant-position: inherit; font-variant-emoji: inherit; font-weight: 400; font-stretch: inherit; line-height: 24px; font-family: OpenSans-Light; font-optical-sizing: inherit; font-size-adjust: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; font-size: 16px; vertical-align: baseline; color: rgb(84, 83, 83); text-indent: 20px; letter-spacing: normal; orphans: 2; text-align: start; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;>&lt;font size=&quot;4&quot; face=&quot;Verdana&quot; style=&quot;box-sizing: border-box; margin: 0px; padding: 0px; outline: 0px;&quot;>Далее вдоль набережной расположено одно из старейших зданий города, 1864 года постройки. В доме проживал главный механик завода Балакин, затем — лесничий. С 1930 года открылась типография с редакцией районной газеты «Ленинец», позже - «Наша жизнь».&lt;/font>&lt;/p>&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 24px; padding: 0px; outline: 0px; border: 0px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-variant-alternates: inherit; font-variant-position: inherit; font-variant-emoji: inherit; font-weight: 400; font-stretch: inherit; line-height: 24px; font-family: OpenSans-Light; font-optical-sizing: inherit; font-size-adjust: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; font-size: 16px; vertical-align: baseline; color: rgb(84, 83, 83); text-indent: 20px; letter-spacing: normal; orphans: 2; text-align: start; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;>&lt;font size=&quot;4&quot; face=&quot;Verdana&quot; style=&quot;box-sizing: border-box; margin: 0px; padding: 0px; outline: 0px;&quot;>За типографией в 1936 году был создан сад металлургов со скамейками, волейбольной и танцевальной площадками, парашютной вышкой.&lt;br style=&quot;box-sizing: border-box; margin: 0px; padding: 0px; outline: 0px;&quot;>В 1950-е годы был организован лодочный парк, проводились соревнования по водной гребле. Были оборудованы четыре плавательных дорожки, на которых проводились областные соревновании. Водная станция была составной частью сада металлургов.&lt;/font>&lt;/p>&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 24px; padding: 0px; outline: 0px; border: 0px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-variant-alternates: inherit; font-variant-position: inherit; font-variant-emoji: inherit; font-weight: 400; font-stretch: inherit; line-height: 24px; font-family: OpenSans-Light; font-optical-sizing: inherit; font-size-adjust: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; font-size: 16px; vertical-align: baseline; color: rgb(84, 83, 83); text-indent: 20px; letter-spacing: normal; orphans: 2; text-align: start; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;>&lt;font size=&quot;4&quot; face=&quot;Verdana&quot; style=&quot;box-sizing: border-box; margin: 0px; padding: 0px; outline: 0px;&quot;>Дальше вы видите памятник рабочему «Слава труду», воздвигнутый молодыми комсомольцами 29 октября 1968 года в честь 50-летия Ленинского комсомола, в честь трудовых и ратных дел молодежи района. Памятник представляет собой монолитную фигуру юноши с серпом и молотом, устремленной ввысь ракетой. Этот обелиск – дань уважения комсомолу, боевой и трудовой славе советской молодежи. От памятника берет начало улица Комсомольская (бывшая Соборная).&lt;/font>&lt;/p>&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 24px; padding: 0px; outline: 0px; border: 0px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-variant-alternates: inherit; font-variant-position: inherit; font-variant-emoji: inherit; font-weight: 400; font-stretch: inherit; line-height: 24px; font-family: OpenSans-Light; font-optical-sizing: inherit; font-size-adjust: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; font-size: 16px; vertical-align: baseline; color: rgb(84, 83, 83); text-indent: 20px; letter-spacing: normal; orphans: 2; text-align: start; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;>&lt;font size=&quot;4&quot; face=&quot;Verdana&quot; style=&quot;box-sizing: border-box; margin: 0px; padding: 0px; outline: 0px;&quot;>Маяк украсил набережную в 2011 году. Семиметровое сооружение изготовил коллектив ремонтно-энергетического цеха Омутнинского металлургического завода. Он сразу стал достопримечательностью города дал название детской библиотеке.&lt;/font>&lt;/p>" foregroundColor="#000000" backgroundColor="#ffffff" name="Памятник &quot;Слава труду&quot; и Маяк" foregroundAlpha="255" filename="../../Pictures/PANO_20251003_155134_2.jpg">
+     <gps longitude="52.1725273132" latitude="58.6646652222"/>
+    </description>
+    <spot x="133.064" y="30.7159" relativeX="0.920427" relativeY="0.476212" type="point" objectId="41">
+     <description/>
+     <presetAction id="user_defaultpoint0">
+      <action startPitch="0" targetId="10" category="basic" description="Go to Набережная пруда" callTemplate="loadpanoramaactioncall.tmpl" depends="" sourceId="9" startFov="90" locked="False" customTargetView="False" type="Object" id="object" name="Go to a panorama or a group" internal="0" contentTemplate="" startYaw="0">
+       <select default="none" uiPreview="false" customize="true" id="sourcetransition" name="Source transition">
+        <item value="none" name="None"/>
+        <item value="zoominonspot" name="Zoom in on the spot"/>
+        <item value="zoomoutonpanorama" name="Zoom out"/>
+       </select>
+       <select default="loadspotview" uiPreview="false" customize="true" id="targettransition" name="Target transition">
+        <item value="none" name="None"/>
+        <item value="spotviewtopanoview" name="Custom view to panorama view"/>
+        <item value="loadspotview" name="Load custom view"/>
+        <item value="loadpanoview" name="Load panorama view"/>
+        <item value="panoviewtospotview" name="Panorama view to custom view"/>
+       </select>
+      </action>
+     </presetAction>
+    </spot>
+    <spot x="8.78803" y="27.6429" relativeX="0.0919202" relativeY="0.435238" type="point" objectId="42">
+     <description/>
+     <presetAction id="user_defaultpoint0">
+      <action startPitch="0" targetId="11" category="basic" description="Go to Дом управляющего" callTemplate="loadpanoramaactioncall.tmpl" depends="" sourceId="9" startFov="90" locked="False" customTargetView="False" type="Object" id="object" name="Go to a panorama or a group" internal="0" contentTemplate="" startYaw="0">
+       <select default="none" uiPreview="false" customize="true" id="sourcetransition" name="Source transition">
+        <item value="none" name="None"/>
+        <item value="zoominonspot" name="Zoom in on the spot"/>
+        <item value="zoomoutonpanorama" name="Zoom out"/>
+       </select>
+       <select default="loadspotview" uiPreview="false" customize="true" id="targettransition" name="Target transition">
+        <item value="none" name="None"/>
+        <item value="spotviewtopanoview" name="Custom view to panorama view"/>
+        <item value="loadspotview" name="Load custom view"/>
+        <item value="loadpanoview" name="Load panorama view"/>
+        <item value="panoviewtospotview" name="Panorama view to custom view"/>
+       </select>
+      </action>
+     </presetAction>
+    </spot>
+    <spot x="98.6374" y="32.5316" relativeX="0.690916" relativeY="0.500421" type="rectpicture" objectId="43">
+     <description filename="../../Downloads/photo_5192723840525010795_x (1).jpg"/>
+     <presetAction id="user_defaultimage0"/>
+     <point x="0.6700032961501022" y="0.4619469026548673"/>
+     <point x="0.7097810089316173" y="0.4595870206489676"/>
+     <point x="0.7118283912071365" y="0.5374631268436578"/>
+     <point x="0.6713501335856635" y="0.5412550161194202"/>
+    </spot>
+    <spot x="38.0573" y="29.8034" relativeX="0.287048" relativeY="0.464046" type="rectpicture" objectId="44">
+     <description filename="../../Downloads/photo_5192723840525010806_x (2).jpg"/>
+     <presetAction id="user_defaultimage0"/>
+     <point x="0.2695533273058251" y="0.4341894060995185"/>
+     <point x="0.3045433869479722" y="0.4341894060995185"/>
+     <point x="0.3037481583197416" y="0.4935794542536116"/>
+     <point x="0.2703037071911399" y="0.4939022039512699"/>
+    </spot>
+   </pano>
+  </group>
+  <group x="256" y="103" thumbMode="False" objectId="13" explicit="False">
+   <description backgroundAlpha="255" foregroundColor="#ffffff" backgroundColor="#808080" name="Group 13" foregroundAlpha="255"/>
+   <pano tourDirectory="pano_10" x="-1" y="-1" maxPixelZoom="false" planar="false" vFov="180" lowres="true" startFov="90" minFov="30" hFov="360" maxFov="90" heading="-44.9999999999979" phi="0" startYaw="0" dontGenerateTiles="false" startPitch="0" type="0" objectId="10">
+    <description backgroundAlpha="255" gpsAutospot="true" description="&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 24px; padding: 0px; outline: 0px; border: 0px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-variant-alternates: inherit; font-variant-position: inherit; font-variant-emoji: inherit; font-weight: 400; font-stretch: inherit; line-height: 24px; font-family: OpenSans-Light; font-optical-sizing: inherit; font-size-adjust: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; font-size: 16px; vertical-align: baseline; color: rgb(84, 83, 83); text-indent: 20px; letter-spacing: normal; orphans: 2; text-align: start; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;>&lt;font size=&quot;4&quot; face=&quot;Verdana&quot; style=&quot;box-sizing: border-box; margin: 0px; padding: 0px; outline: 0px;&quot;>Свой нынешний облик набережная пруда стала приобретать в 2021 году по проекту активистов Совета молодежи Омутнинского металлургического завода «Заводной Омутнинск» (Всероссийский конкурс «Малый город, большая история»). До этого на набережной размещалась лодочная станция, тир, пляжная зона. А ещё лодочные гаражи и место для стирки ковров и паласов. Так было. Сейчас набережная преобразилась: «оделась» в красивую брусчатку пешеходная зона, были установлены детский игровой городок, различные арт-объекты, надпись «Мы любим наш город».&lt;/font>&lt;/p>&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 24px; padding: 0px; outline: 0px; border: 0px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-variant-alternates: inherit; font-variant-position: inherit; font-variant-emoji: inherit; font-weight: 400; font-stretch: inherit; line-height: 24px; font-family: OpenSans-Light; font-optical-sizing: inherit; font-size-adjust: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; font-size: 16px; vertical-align: baseline; color: rgb(84, 83, 83); text-indent: 20px; letter-spacing: normal; orphans: 2; text-align: start; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;>&lt;font size=&quot;4&quot; face=&quot;Verdana&quot; style=&quot;box-sizing: border-box; margin: 0px; padding: 0px; outline: 0px;&quot;>На берегах пруда располагаются Свято-Троицкий собор, медицинский колледж, городской пляж, заводской санаторий-профилакторий «Металлург», детский санаторий «Лесная сказка», детский оздоровительный лагерь «Колокольчик».&lt;/font>&lt;/p>" foregroundColor="#000000" backgroundColor="#ffffff" name="Набережная пруда" foregroundAlpha="255" filename="../../Pictures/PANO_20251024_140635_0 — копия.jpg">
+     <gps longitude="52.1699752808" latitude="58.6655273438"/>
+    </description>
+    <spot x="133.417" y="30.6467" relativeX="0.92278" relativeY="0.47529" type="point" objectId="19">
+     <description/>
+     <presetAction id="user_defaultpoint0">
+      <action startPitch="0" targetId="9" category="basic" description="Go to Памятник &quot;Слава труду&quot; и Маяк" callTemplate="loadpanoramaactioncall.tmpl" depends="" sourceId="10" startFov="90" locked="False" customTargetView="False" type="Object" id="object" name="Go to a panorama or a group" internal="0" contentTemplate="" startYaw="0">
+       <select default="none" uiPreview="false" customize="true" id="sourcetransition" name="Source transition">
+        <item value="none" name="None"/>
+        <item value="zoominonspot" name="Zoom in on the spot"/>
+        <item value="zoomoutonpanorama" name="Zoom out"/>
+       </select>
+       <select default="loadspotview" uiPreview="false" customize="true" id="targettransition" name="Target transition">
+        <item value="none" name="None"/>
+        <item value="spotviewtopanoview" name="Custom view to panorama view"/>
+        <item value="loadspotview" name="Load custom view"/>
+        <item value="loadpanoview" name="Load panorama view"/>
+        <item value="panoviewtospotview" name="Panorama view to custom view"/>
+       </select>
+      </action>
+     </presetAction>
+    </spot>
+    <spot x="96.9973" y="30.5098" relativeX="0.679982" relativeY="0.473464" type="rectpicture" objectId="20">
+     <description filename="../../Downloads/photo_5192723840525010793_x.jpg"/>
+     <presetAction id="user_defaultimage0"/>
+     <point x="0.6626409133552148" y="0.4357541899441341"/>
+     <point x="0.6986519936876248" y="0.4371508379888268"/>
+     <point x="0.6986519936876248" y="0.5111731843575419"/>
+     <point x="0.6613126710394681" y="0.5098026003407427"/>
+    </spot>
+    <spot x="39.5862" y="26.1395" relativeX="0.297241" relativeY="0.415194" type="rectpicture" objectId="21">
+     <description filename="../../Downloads/photo_5192723840525010794_x (1).jpg"/>
+     <presetAction id="user_defaultimage0"/>
+     <point x="0.2755217997818072" y="0.3798882681564246"/>
+     <point x="0.3170730463192033" y="0.3805865921787709"/>
+     <point x="0.3189610056140713" y="0.4472191155471741"/>
+     <point x="0.278240674871528" y="0.4504995320826712"/>
+    </spot>
+   </pano>
+  </group>
+  <group x="819" y="103" thumbMode="False" objectId="14" explicit="False">
+   <description backgroundAlpha="255" foregroundColor="#ffffff" backgroundColor="#808080" name="Group 14" foregroundAlpha="255"/>
+   <pano tourDirectory="pano_11" x="-1" y="-1" maxPixelZoom="false" planar="false" vFov="180" lowres="true" startFov="90" minFov="30" hFov="360" maxFov="90" heading="-106.0000000000058" phi="0" startYaw="0" dontGenerateTiles="false" startPitch="0" type="0" objectId="11">
+    <description backgroundAlpha="255" gpsAutospot="true" description="&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 24px; padding: 0px; outline: 0px; border: 0px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-variant-alternates: inherit; font-variant-position: inherit; font-variant-emoji: inherit; font-weight: 400; font-stretch: inherit; line-height: 24px; font-family: OpenSans-Light; font-optical-sizing: inherit; font-size-adjust: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; font-size: 16px; vertical-align: baseline; color: rgb(84, 83, 83); text-indent: 20px; letter-spacing: normal; orphans: 2; text-align: start; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;>&lt;font size=&quot;4&quot; face=&quot;Verdana&quot; style=&quot;box-sizing: border-box; margin: 0px; padding: 0px; outline: 0px;&quot;>Памятник Владимиру Ильичу Ленину (вождю мирового пролетариата) - первое монументально-скульптурное сооружение в Омутнинском районе, воздвигнутое в 1935 году по решению омутнинских металлургов на тогдашней площади Коммунаров (позднее Свободы) на перекрестке улиц Свободы (Петропавловской) и Комсомольской (Соборной). Статуя изготовлена из бетона на кирпичном постаменте.&lt;/font>&lt;/p>&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 24px; padding: 0px; outline: 0px; border: 0px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-variant-alternates: inherit; font-variant-position: inherit; font-variant-emoji: inherit; font-weight: 400; font-stretch: inherit; line-height: 24px; font-family: OpenSans-Light; font-optical-sizing: inherit; font-size-adjust: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; font-size: 16px; vertical-align: baseline; color: rgb(84, 83, 83); text-indent: 20px; letter-spacing: normal; orphans: 2; text-align: start; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;>&lt;font size=&quot;4&quot; face=&quot;Verdana&quot; style=&quot;box-sizing: border-box; margin: 0px; padding: 0px; outline: 0px;&quot;>Дом управляющего омутнинскими заводами был самым красивым зданием центра рабочего поселка, с «шахматной» крышей и невысокой башенкой. Но после пожара в 1916-1917 гг. был наспех отремонтирован и потерял свою неповторимость. В своё время здесь находились и школа рабочей молодёжи, и базовая начальная школа. В данное время расположились начальные классы школы №6.&lt;/font>&lt;/p>&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 24px; padding: 0px; outline: 0px; border: 0px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-variant-alternates: inherit; font-variant-position: inherit; font-variant-emoji: inherit; font-weight: 400; font-stretch: inherit; line-height: 24px; font-family: OpenSans-Light; font-optical-sizing: inherit; font-size-adjust: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; font-size: 16px; vertical-align: baseline; color: rgb(84, 83, 83); text-indent: 20px; letter-spacing: normal; orphans: 2; text-align: start; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;>&lt;font size=&quot;4&quot; face=&quot;Verdana&quot; style=&quot;box-sizing: border-box; margin: 0px; padding: 0px; outline: 0px;&quot;>Рядом - «Сбербанк», построенный в 2013 году. На этом месте в начале XX века размещалось двухэтажное здание женской прогимназии. В нем учились девочки, окончившие три класса начальной школы. Срок обучения в гимназии был 4 года. Затем шло обучение в гимназиях г. Слободского или г. Глазова. С 1958 года в здании разместилось одно из общежитий Омутнинского педагогического училища (учительский институт). Когда построили новое пятиэтажное общежитие для проживания учащихся (1983 год), в этом месте разместился музыкальный корпус того же учебного заведения, в котором проходили занятия и по технологии трудового обучения. К сожалению, время не щадит старые дома. В 2005 году в музыкальном корпусе возник пожар и чуть позже его снесли.&lt;/font>&lt;/p>&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 24px; padding: 0px; outline: 0px; border: 0px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-variant-alternates: inherit; font-variant-position: inherit; font-variant-emoji: inherit; font-weight: 400; font-stretch: inherit; line-height: 24px; font-family: OpenSans-Light; font-optical-sizing: inherit; font-size-adjust: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; font-size: 16px; vertical-align: baseline; color: rgb(84, 83, 83); text-indent: 20px; letter-spacing: normal; orphans: 2; text-align: start; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;>&lt;font size=&quot;4&quot; face=&quot;Verdana&quot; style=&quot;box-sizing: border-box; margin: 0px; padding: 0px; outline: 0px;&quot;>Напротив - омутнинский почтамт. Свое начало берет с «государевой почты», появившейся в Омутнинском заводе в 20-х гг. XIX в. В советское время межрайонный узел связи работал в двухэтажном деревянном доме по ул.Коковихина. С 1976 года переехал в новое трехэтажное здание на ул. Свободы. Главная услуга (в своё время) - проводная телефония, более 10 тыс. абонентов.&lt;/font>&lt;/p>" foregroundColor="#000000" backgroundColor="#ffffff" name="Дом управляющего" foregroundAlpha="255" filename="../../Pictures/PANO_20251024_141500_1.jpg">
+     <gps longitude="52.1733131409" latitude="58.6655883789"/>
+    </description>
+    <spot x="51.2401" y="30.3407" relativeX="0.374934" relativeY="0.47121" type="point" objectId="45">
+     <description/>
+     <presetAction id="user_defaultpoint0">
+      <action startPitch="0" targetId="9" category="basic" description="Go to Памятник &quot;Слава труду&quot; и Маяк" callTemplate="loadpanoramaactioncall.tmpl" depends="" sourceId="11" startFov="90" locked="False" customTargetView="False" type="Object" id="object" name="Go to a panorama or a group" internal="0" contentTemplate="" startYaw="0">
+       <select default="none" uiPreview="false" customize="true" id="sourcetransition" name="Source transition">
+        <item value="none" name="None"/>
+        <item value="zoominonspot" name="Zoom in on the spot"/>
+        <item value="zoomoutonpanorama" name="Zoom out"/>
+       </select>
+       <select default="loadspotview" uiPreview="false" customize="true" id="targettransition" name="Target transition">
+        <item value="none" name="None"/>
+        <item value="spotviewtopanoview" name="Custom view to panorama view"/>
+        <item value="loadspotview" name="Load custom view"/>
+        <item value="loadpanoview" name="Load panorama view"/>
+        <item value="panoviewtospotview" name="Panorama view to custom view"/>
+       </select>
+      </action>
+     </presetAction>
+    </spot>
+    <spot x="121.307" y="28.2249" relativeX="0.842047" relativeY="0.442998" type="rectpicture" objectId="46">
+     <description filename="../../Downloads/photo_5192723840525010845_x (1).jpg"/>
+     <presetAction id="user_defaultimage0"/>
+     <point x="0.8227848101265816" y="0.4068736141906874"/>
+     <point x="0.8607594936708853" y="0.4079822616407982"/>
+     <point x="0.8613098514034114" y="0.4778270509977827"/>
+     <point x="0.823755270711145" y="0.4791224833007328"/>
+    </spot>
+    <spot x="39.0589" y="30.3797" relativeX="0.293726" relativeY="0.471729" type="rectpicture" objectId="47">
+     <description filename="../../Downloads/photo_5192723840525010864_x (1).jpg"/>
+     <presetAction id="user_defaultimage0"/>
+     <point x="0.2685745734727565" y="0.4235033259423504"/>
+     <point x="0.3219172500318296" y="0.425513310344996"/>
+     <point x="0.3208585580627401" y="0.5199556541019955"/>
+     <point x="0.2655352536998185" y="0.5148213883618644"/>
+    </spot>
+   </pano>
+  </group>
+  <build headsetTour="false" baseDir="C:\Users\yaiko8841\Desktop\bn" imgJpegQuality="9" displayErrors="true" exportComments="true" htmlTemplate="fullpage.html" encryptConfig="false" html5Tour="true" desktopTour="true" mobilesTour="true" iBookTour="false" flashTour="true" filename="tyr" useMultiResolution="true"/>
+  <plugins>
+   <plugin id="picture" name="Picture">
+    <param uiPreview="false" customize="false" id="position_group" name="tr:Position">
+     <position availableValues="topleft,topright,bottomleft,bottomright,top,bottom,left,right,center" needOrientation="false" x="10" y="10" xUnit="pixel" default="bottomleft" yUnit="pixel" uiPreview="false" customize="false" yUnits="pixel" defaultOrientation="horizontal" xUnits="pixel" id="position" name="tr:Position"/>
+    </param>
+    <param uiPreview="false" customize="false" id="display_group" name="tr:Display">
+     <filechooser default="../../Downloads/photo_5192723840525010958_y (1).jpg" uiPreview="false" customize="false" id="file" allowRemote="true" name="tr:File" allowEmpty="false" filters="images,flash"/>
+    </param>
+    <param uiPreview="false" customize="false" needKeepRatio="false" id="size" name="tr:Size">
+     <dimension default="125" minimum="0" currentUnit="pixel" maximum="9999" uiPreview="false" customize="false" availableUnits="percent,pixel" needAutomatic="false" id="width" name="tr:Width"/>
+     <dimension default="125" minimum="0" currentUnit="pixel" maximum="9999" uiPreview="false" customize="false" availableUnits="percent,pixel" needAutomatic="false" id="height" name="tr:Height"/>
+    </param>
+    <param uiPreview="false" customize="false" id="behavior" name="tr:Behavior">
+     <bool default="True" description="tr:Show/hide this component when the user triggers a show/hide controls request from an other component" uiPreview="false" customize="false" id="hideonhidecontrols" name="tr:Respond to show/hide controls requests"/>
+    </param>
+   </plugin>
+   <plugin id="compass" name="Compass">
+    <param uiPreview="false" customize="false" id="position_group" name="tr:Position">
+     <position availableValues="top,left,right,bottom,topleft,topright,bottomleft,bottomright" needOrientation="false" x="0" y="0" xUnit="pixel" default="topleft" yUnit="pixel" uiPreview="false" customize="false" yUnits="pixel" defaultOrientation="horizontal" xUnits="pixel" id="position" name="tr:Position"/>
+    </param>
+    <param uiPreview="false" customize="false" id="display_group" name="tr:Display">
+     <color default="#53a0d7" allowDynamicSource="false" uiPreview="false" customize="false" needAlpha="true" id="colorbg" source="customColor" name="tr:Background Color" defaultAlpha="1"/>
+     <color default="#b17135" allowDynamicSource="false" uiPreview="false" customize="false" needAlpha="true" id="colorarrow" source="customColor" name="tr:Arrow Color" defaultAlpha="1"/>
+    </param>
+    <param uiPreview="false" customize="false" needKeepRatio="false" id="size" name="tr:Size">
+     <dimension default="100" minimum="0" currentUnit="pixel" maximum="9999" uiPreview="false" customize="false" availableUnits="percent,pixel" needAutomatic="false" id="width" name="tr:Width"/>
+     <dimension default="100" minimum="0" currentUnit="pixel" maximum="9999" uiPreview="false" customize="false" availableUnits="percent,pixel" needAutomatic="false" id="height" name="tr:Height"/>
+    </param>
+    <param uiPreview="false" customize="false" id="behavior" name="tr:Behavior">
+     <bool default="True" description="tr:Show/hide this component when the user triggers a show/hide controls request from an other component" uiPreview="false" customize="false" id="hideonhidecontrols" name="tr:Respond to show/hide controls requests"/>
+     <bool default="False" uiPreview="false" customize="false" id="rotatebackground" name="tr:Rotate the background instead of the arrow"/>
+    </param>
+    <param uiPreview="false" customize="false" id="">
+     <select default="none" uiPreview="false" customize="false" id="clickaction" name="tr:Action triggered on click">
+      <item value="none" name="None"/>
+      <item value="map" name="Send tour map events"/>
+      <item value="floorplan" name="Send tour floor plan events"/>
+     </select>
+    </param>
+   </plugin>
+   <plugin id="panoramacombobox" name="Panorama Combobox">
+    <param uiPreview="false" customize="false" id="position_group" name="tr:Position">
+     <position availableValues="topleft,topright,bottomleft,bottomright,top,bottom" needOrientation="false" x="5" y="10" xUnit="pixel" default="top" yUnit="pixel" uiPreview="false" customize="false" yUnits="pixel" defaultOrientation="horizontal" xUnits="pixel" id="position" name="tr:Position"/>
+    </param>
+    <param uiPreview="false" customize="false" id="display_group" name="tr:Display">
+     <datasource default="allpanoramas" uiPreview="false" customize="false" id="source" name="tr:Display"/>
+    </param>
+    <param uiPreview="false" customize="false" id="behavior" name="tr:Behavior">
+     <bool default="True" description="tr:Show/hide this component when the user triggers a show/hide controls request from an other component" uiPreview="false" customize="false" id="hideonhidecontrols" name="tr:Respond to show/hide controls requests"/>
+    </param>
+   </plugin>
+   <plugin id="description" name="Description">
+    <param uiPreview="false" customize="false" id="position_group" name="tr:Position">
+     <position availableValues="topleft,topright,top,bottomleft,bottomright,bottom,left,right,center" needOrientation="false" x="0" y="0" xUnit="pixel" default="right" yUnit="pixel" uiPreview="false" customize="false" yUnits="pixel" defaultOrientation="horizontal" xUnits="pixel" id="position" name="tr:Position"/>
+    </param>
+    <param uiPreview="false" customize="false" id="display" name="tr:Display">
+     <datasource default="currentpanorama" uiPreview="false" customize="false" id="source" name="tr:Description to display"/>
+     <bool default="False" conditionalParam="source" conditionalValues="currentgroup" description="tr:Use the current group color as background color" uiPreview="false" customize="false" id="use_group_color" name="tr:Use group color"/>
+     <dimension default="20" minimum="0" currentUnit="percent" maximum="9999" uiPreview="false" customize="false" availableUnits="percent,pixel" needAutomatic="false" id="area_width" name="tr:Area width"/>
+     <dimension default="100" minimum="0" currentUnit="percent" maximum="9999" uiPreview="false" customize="false" availableUnits="percent,pixel" needAutomatic="false" id="area_height" name="tr:Area height"/>
+     <color default="#f2f2f2" allowDynamicSource="false" uiPreview="false" customize="false" needAlpha="true" id="background_color" source="customColor" name="tr:Background color" defaultAlpha="1"/>
+     <dimension default="0" minimum="0" currentUnit="pixel" maximum="100" uiPreview="false" customize="false" availableUnits="pixel" needAutomatic="false" id="border_radius" name="tr:Border radius"/>
+     <dimension default="0" minimum="0" currentUnit="pixel" maximum="100" uiPreview="false" customize="false" availableUnits="pixel" needAutomatic="false" id="border_width" name="tr:Border size"/>
+     <color default="#f2f2f2" allowDynamicSource="false" uiPreview="false" customize="false" needAlpha="false" id="border_color" source="customColor" name="tr:Border color"/>
+     <dimension default="15" minimum="0" currentUnit="pixel" maximum="100" uiPreview="false" customize="false" availableUnits="pixel" needAutomatic="false" id="border_margins" name="tr:Internal margins"/>
+    </param>
+    <param uiPreview="false" customize="false" id="overlay" name="tr:Overlay style">
+     <bool default="False" description="tr:Check to show a coloured overlay" uiPreview="false" customize="false" id="overlay_displayed" name="tr:Show overlay"/>
+     <color default="#000000" conditionalParam="overlay_displayed" conditionalValues="true" allowDynamicSource="false" uiPreview="false" customize="false" needAlpha="true" id="overlay_color" source="customColor" name="tr:Overlay color" defaultAlpha="0.5"/>
+    </param>
+    <param uiPreview="false" customize="false" id="title" name="tr:Description title">
+     <bool default="False" uiPreview="false" customize="false" id="display_title" name="tr:Display a description title"/>
+     <datasource default="currentpanorama" conditionalParam="display_title" conditionalValues="true" uiPreview="false" customize="false" id="description_title_source" name="tr:Description title to display"/>
+     <string needTranslation="true" default="" conditionalParam="display_title" conditionalValues="true" uiPreview="false" customize="false" id="description_title" name="tr:Specific description title"/>
+     <font size="14" default="Verdana" conditionalParam="display_title" conditionalValues="true" uiPreview="false" customize="false" style="" id="title_font" name="tr:Title font style"/>
+     <color default="#000000" conditionalParam="display_title" conditionalValues="true" allowDynamicSource="false" uiPreview="false" customize="false" needAlpha="false" id="title_color" source="customColor" name="tr:Title font color"/>
+    </param>
+    <param uiPreview="false" customize="false" id="behavior" name="tr:Behavior">
+     <bool default="False" description="tr:The tour starts with the description opened" uiPreview="false" customize="false" id="open_at_start" name="tr:Start opened"/>
+     <bool default="False" description="tr:Show/hide this component when the user triggers a show/hide controls request from an other component" uiPreview="false" customize="false" id="hide_on_hide_controls" name="tr:Respond to show/hide controls requests"/>
+     <bool default="True" uiPreview="false" customize="false" id="listen_info_event" name="tr:Interact with tour info events"/>
+    </param>
+    <param uiPreview="false" customize="false" id="">
+     <bool default="False" uiPreview="false" customize="false" id="display_close" name="tr:Display a close button"/>
+     <bool default="False" uiPreview="false" customize="false" id="close_on_click" name="tr:Close description on click"/>
+     <bool default="False" uiPreview="false" customize="false" id="animation" name="tr:Use animation to show description"/>
+     <number suffix=" ms" default="500" minimum="0" conditionalParam="animation" conditionalValues="true" maximum="99999" uiPreview="false" customize="false" id="animation_duration" name="tr:Animation duration"/>
+     <select default="left" conditionalParam="animation" conditionalValues="true" uiPreview="false" customize="false" id="start_position" name="tr:Start position">
+      <item value="top" name="Top"/>
+      <item value="right" name="Right"/>
+      <item value="bottom" name="Bottom"/>
+      <item value="left" name="Left"/>
+     </select>
+    </param>
+   </plugin>
+   <plugin id="panotourmaps" name="PanotourMaps">
+    <param default="standard_display" description="tr:Map is displayed next to or over the virtual tour" uiPreview="false" customize="false" id="type_display" name="tr:Type of display">
+     <item value="standard_display" name="Apart from the virtual tour"/>
+     <item value="over_display" name="Above the virtual tour"/>
+    </param>
+    <param conditionalParam="type_display" conditionalValues="standard_display" uiPreview="false" customize="false" id="map_standard_position" name="tr:Position">
+     <position availableValues="top,right,bottom,left" needOrientation="false" x="0" y="0" xUnit="pixel" default="left" yUnit="pixel" uiPreview="false" customize="false" yUnits="pixel" defaultOrientation="horizontal" xUnits="pixel" id="position_std" name="tr:Position"/>
+    </param>
+    <param conditionalParam="type_display" conditionalValues="standard_display" uiPreview="false" customize="false" id="map_standard_display" name="tr:Display">
+     <number suffix=" %" default="30" minimum="0" maximum="100" description="tr:The map display size in percent" uiPreview="false" customize="false" id="map_size" name="tr:Map display size"/>
+     <bool default="True" description="tr:Map is displayed into a resizable and draggable zone." uiPreview="false" customize="false" id="map_resizable" name="tr:Resizable map zone"/>
+     <color default="#f2f2f2" allowDynamicSource="false" uiPreview="false" customize="false" needAlpha="true" id="background_color" source="customColor" name="tr:Background color" defaultAlpha="1"/>
+    </param>
+    <param conditionalParam="type_display" conditionalValues="over_display" uiPreview="false" customize="false" id="map_over_position" name="tr:Position">
+     <position availableValues="topleft,topright,top,bottomleft,bottomright,bottom,left,right,center" needOrientation="false" x="0" y="0" xUnit="pixel" default="topleft" yUnit="pixel" uiPreview="false" customize="false" yUnits="pixel" defaultOrientation="horizontal" xUnits="pixel" id="position_over" name="tr:Position"/>
+    </param>
+    <param conditionalParam="type_display" conditionalValues="over_display" uiPreview="false" customize="false" id="map_over_display" name="tr:Display">
+     <dimension default="20" minimum="0" currentUnit="percent" maximum="9999" uiPreview="false" customize="false" availableUnits="percent,pixel" needAutomatic="false" id="area_width" name="tr:Area width"/>
+     <dimension default="100" minimum="0" currentUnit="percent" maximum="9999" uiPreview="false" customize="false" availableUnits="percent,pixel" needAutomatic="false" id="area_height" name="tr:Area height"/>
+     <color default="#f2f2f2" allowDynamicSource="false" uiPreview="false" customize="false" needAlpha="true" id="area_background_color" source="customColor" name="tr:Area background color" defaultAlpha="1"/>
+     <dimension default="0" minimum="0" currentUnit="pixel" maximum="100" uiPreview="false" customize="false" availableUnits="pixel" needAutomatic="false" id="border_radius" name="tr:Border radius"/>
+     <dimension default="0" minimum="0" currentUnit="pixel" maximum="100" uiPreview="false" customize="false" availableUnits="pixel" needAutomatic="false" id="border_width" name="tr:Border size"/>
+     <color default="#f2f2f2" allowDynamicSource="false" uiPreview="false" customize="false" needAlpha="false" id="border_color" source="customColor" name="tr:Border color"/>
+     <dimension default="15" minimum="0" currentUnit="pixel" maximum="100" uiPreview="false" customize="false" availableUnits="pixel" needAutomatic="false" id="border_margins" name="tr:Border margins"/>
+    </param>
+    <param conditionalParam="type_display" conditionalValues="over_display" uiPreview="false" customize="false" id="map_overlay" name="tr:Overlay style">
+     <bool default="False" description="tr:Check to show a coloured overlay" uiPreview="false" customize="false" id="overlay_displayed" name="tr:Show overlay"/>
+     <color default="#000000" conditionalParam="overlay_displayed" conditionalValues="true" allowDynamicSource="false" uiPreview="false" customize="false" needAlpha="true" id="overlay_color" source="customColor" name="tr:Overlay color" defaultAlpha="0.5"/>
+    </param>
+    <param uiPreview="false" customize="false" id="map_layer" name="tr:Layers">
+     <label uiPreview="false" customize="false" id="layer_message" name="tr:PanotourMaps supports Google Maps API v3.17, Bing Maps API v7.0, OpenStreetMap with OpenLayers API v2.12 and Yandex v2.0.24"/>
+     <select default="yandexv2" uiPreview="false" customize="false" id="layer" name="tr:Main map layer">
+      <item value="googlev3" name="Google Maps"/>
+      <item value="microsoft7" name="Bing Maps"/>
+      <item value="openlayers" name="OpenStreetMap"/>
+      <item value="yandexv2" name="Yandex"/>
+     </select>
+     <string needTranslation="true" default="" conditionalParam="layer" conditionalValues="googlev3,microsoft7,yandexv2" description="tr:Enter the map service key" uiPreview="false" customize="false" id="key" name="tr:Main map key"/>
+     <label conditionalParam="layer" conditionalValues="googlev3" uiPreview="false" customize="false" id="layer_message_api_google_main" name="tr:To create your Google Maps JavaScript API v3 keys, visit the APIs Console at &lt;a href=&quot;https://code.google.com/apis/console&quot;>https://code.google.com/apis/console&lt;/a> and log in with your Google Account."/>
+     <label conditionalParam="layer" conditionalValues="microsoft7" uiPreview="false" customize="false" id="layer_message_api_bing_main" name="tr:To create your Bing Maps API keys, visit the Bing Maps Account Center at &lt;a href=&quot;http://www.bingmapsportal.com/&quot;>http://www.bingmapsportal.com/&lt;/a> and log in with your Microsoft Account."/>
+     <label conditionalParam="layer" conditionalValues="yandexv2" uiPreview="false" customize="false" id="layer_message_api_yandex_main" name="tr:To create your Yandex keys, visit at &lt;a href=&quot;the http://api.yandex.ru/maps/faq.xml#key_1&quot;>the http://api.yandex.ru/maps/faq.xml#key_1&lt;/a> and log in with your Yandex Passport Account."/>
+     <select default="hybrid" uiPreview="false" customize="false" id="map_type_layer" name="tr:Map type">
+      <item value="road" name="Road"/>
+      <item value="satellite" name="Satellite"/>
+      <item value="hybrid" name="Hybrid"/>
+      <item value="physical" name="Physical"/>
+     </select>
+    </param>
+    <param uiPreview="false" customize="false" id="markers" name="tr:Spots">
+     <select default="bounce" uiPreview="false" customize="false" id="selected_effect" name="tr:Selected spot animation">
+      <item value="" name="None"/>
+      <item value="bounce" name="Bouncing animation"/>
+     </select>
+     <select default="info" uiPreview="false" customize="false" id="desc_type" name="tr:Tooltip type">
+      <item value="info" name="Info box"/>
+      <item value="tooltip" name="Tooltip on hover"/>
+      <item value="label" name="Label under marker"/>
+     </select>
+     <bool default="False" conditionalParam="desc_type" conditionalValues="info" description="tr:Activate info box display on hover spot" uiPreview="false" customize="false" id="on_hover" name="tr:Display info box on hover"/>
+    </param>
+    <param uiPreview="false" customize="false" id="radar" name="tr:Radars">
+     <bool default="True" uiPreview="false" customize="false" id="display_radar" name="tr:Display a radar around an activated scene or group spot"/>
+     <dimension default="1" minimum="1" currentUnit="pixel" conditionalParam="display_radar" conditionalValues="true" maximum="10" uiPreview="false" customize="false" availableUnits="pixel" needAutomatic="false" id="line_width" name="tr:Radar border width"/>
+     <color default="#ffffff" conditionalParam="display_radar" conditionalValues="true" allowDynamicSource="false" uiPreview="false" customize="false" needAlpha="true" id="line_color" source="customColor" name="tr:Radar border color" defaultAlpha="0.5"/>
+     <color default="#ffffff" conditionalParam="display_radar" conditionalValues="true" allowDynamicSource="false" uiPreview="false" customize="false" needAlpha="true" id="fill_color" source="customColor" name="tr:Radar fill color" defaultAlpha="0.3"/>
+     <bool default="True" conditionalParam="display_radar" conditionalValues="true" description="tr:Radar radius is linked to map zoom level" uiPreview="false" customize="false" id="link_to_zoom" name="tr:Radar radius linked to zoom level"/>
+     <row conditionalParam="display_radar" conditionalValues="true" uiPreview="false" customize="false" id="radar_radius">
+      <number suffix=" meters" default="8000" minimum="1" conditionalParam="link_to_zoom" conditionalValues="false" maximum="20000" description="tr:Radar radius in meters" uiPreview="false" customize="false" id="radius" name="tr:Radar radius size"/>
+     </row>
+    </param>
+    <param conditionalParam="type_display" conditionalValues="over_display" uiPreview="false" customize="false" id="title" name="tr:Map title">
+     <bool default="True" uiPreview="false" customize="false" id="display_title" name="tr:Display the map title"/>
+     <string needTranslation="true" default="Map" conditionalParam="display_title" conditionalValues="true" description="tr:Enter the map title text" uiPreview="false" customize="false" id="map_title" name="tr:Map title"/>
+     <font size="14" default="Verdana" conditionalParam="display_title" conditionalValues="true" uiPreview="false" customize="false" style="" id="title_font" name="tr:Title font style"/>
+     <color default="#000000" conditionalParam="display_title" conditionalValues="true" allowDynamicSource="false" uiPreview="false" customize="false" needAlpha="false" id="title_color" source="customColor" name="tr:Title font color"/>
+    </param>
+    <param uiPreview="false" customize="false" id="controls" name="tr:Controls">
+     <bool default="True" uiPreview="false" customize="false" id="zoom" name="tr:Display a zoom control"/>
+     <bool default="True" uiPreview="false" customize="false" id="pan" name="tr:Display a position control"/>
+     <bool default="True" uiPreview="false" customize="false" id="map_type" name="tr:Display a map type control"/>
+     <bool default="False" uiPreview="false" customize="false" id="scale" name="tr:Display the map scale"/>
+    </param>
+    <param uiPreview="false" customize="false" id="behaviors" name="tr:Behavior">
+     <bool default="False" description="tr:The tour starts with the map opened" uiPreview="false" customize="false" id="open_at_start" name="tr:Start opened"/>
+     <bool default="False" description="tr:Show/hide this component when the user triggers a show/hide controls request from an other component" uiPreview="false" customize="false" id="hide_on_hide_controls" name="tr:Respond to show/hide controls requests"/>
+     <bool default="True" uiPreview="false" customize="false" id="listen_map_events" name="tr:Interact with tour map events"/>
+     <bool default="True" description="tr:If activated, the map is centered on spots elsewhere the map is centered on default coordinates" uiPreview="false" customize="false" id="use_default_marker" name="tr:Center the map to the current panorama or group spot"/>
+    </param>
+    <param uiPreview="false" customize="false" id="">
+     <group conditionalParam="type_display" conditionalValues="standard_display" uiPreview="false" customize="false" id="multimap_selector" name="tr:Multi-maps">
+      <bool default="False" uiPreview="false" customize="false" id="multimap" name="tr:Add a multimap selector to swap between map layers"/>
+      <string needTranslation="true" default="Swap provider" conditionalParam="multimap" conditionalValues="true" description="tr:The label for maps provider swap" uiPreview="false" customize="false" id="multimap_label" name="tr:Selector label"/>
+      <string needTranslation="true" default="First map layer" conditionalParam="multimap" conditionalValues="true" description="tr:Enter the map label name" uiPreview="false" customize="false" id="main_label" name="tr:Main map label"/>
+      <group conditionalParam="multimap" conditionalValues="true" uiPreview="false" customize="false" id="multimap_second" name="tr:Second map">
+       <select default="microsoft7" uiPreview="false" customize="false" id="second_layer" name="tr:Second map layer">
+        <item value="googlev3" name="Google Maps"/>
+        <item value="microsoft7" name="Bing Maps"/>
+        <item value="openlayers" name="OpenStreetMap"/>
+        <item value="yandexv2" name="Yandex"/>
+       </select>
+       <string needTranslation="true" default="" conditionalParam="second_layer" conditionalValues="googlev3,microsoft7,yandexv2" description="tr:Enter the map service key" uiPreview="false" customize="false" id="second_key" name="tr:Second map key"/>
+       <label conditionalParam="second_layer" conditionalValues="googlev3" uiPreview="false" customize="false" id="layer_message_api_google_second" name="tr:To create your Google Maps JavaScript API v3 keys, visit the APIs Console at https://code.google.com/apis/console and log in with your Google Account."/>
+       <label conditionalParam="second_layer" conditionalValues="microsoft7" uiPreview="false" customize="false" id="layer_message_api_bing_second" name="tr:To create your Bing Maps API keys, visit the Bing Maps Account Center at http://www.bingmapsportal.com/ and log in with your Microsoft Account."/>
+       <label conditionalParam="second_layer" conditionalValues="yandexv2" uiPreview="false" customize="false" id="layer_message_api_yandex_second" name="tr:To create your Yandex keys, visit the http://api.yandex.ru/maps/faq.xml#key_1 and log in with your Yandex Passport Account."/>
+       <string needTranslation="true" default="Second map layer" description="tr:Enter the map label name" uiPreview="false" customize="false" id="second_label" name="tr:Second map label"/>
+      </group>
+      <group conditionalParam="multimap" conditionalValues="true" uiPreview="false" customize="false" id="multimap_third" name="tr:Third map">
+       <select default="none" uiPreview="false" customize="false" id="third_layer" name="tr:Third map layer">
+        <item value="none" name="None"/>
+        <item value="googlev3" name="Google Maps"/>
+        <item value="microsoft7" name="Bing Maps"/>
+        <item value="openlayers" name="OpenStreetMap"/>
+        <item value="yandexv2" name="Yandex"/>
+       </select>
+       <string needTranslation="true" default="" conditionalParam="third_layer" conditionalValues="googlev3,microsoft7,yandexv2" description="tr:Enter the map service key" uiPreview="false" customize="false" id="third_key" name="tr:Third map key"/>
+       <label conditionalParam="third_layer" conditionalValues="googlev3" uiPreview="false" customize="false" id="layer_message_api_google_third" name="tr:To create your Google Maps JavaScript API v3 keys, visit the APIs Console at https://code.google.com/apis/console and log in with your Google Account."/>
+       <label conditionalParam="third_layer" conditionalValues="microsoft7" uiPreview="false" customize="false" id="layer_message_api_bing_third" name="tr:To create your Bing Maps API keys, visit the Bing Maps Account Center at http://www.bingmapsportal.com/ and log in with your Microsoft Account."/>
+       <label conditionalParam="third_layer" conditionalValues="yandexv2" uiPreview="false" customize="false" id="layer_message_api_yandex_third" name="tr:To create your Yandex keys, visit the http://api.yandex.ru/maps/faq.xml#key_1 and log in with your Yandex Passport Account."/>
+       <string needTranslation="true" default="Third map layer" conditionalParam="third_layer" conditionalValues="googlev3,microsoft7,openlayers" description="tr:Enter the map label name" uiPreview="false" customize="false" id="third_label" name="tr:Third map label"/>
+      </group>
+      <label uiPreview="false" customize="false" id="multimap_message" name="tr:Information : first, second and third map layers must be from different providers."/>
+     </group>
+     <group uiPreview="false" customize="false" id="advanced_ui" name="tr:User interface">
+      <bool default="True" uiPreview="false" customize="false" id="draggable" name="tr:Map is draggable"/>
+      <bool default="True" uiPreview="false" customize="false" id="scrollable" name="tr:Activate zoom on mouse wheel"/>
+      <bool default="True" uiPreview="false" customize="false" id="dblclick" name="tr:Zoom on double click"/>
+      <bool default="False" conditionalParam="type_display" conditionalValues="over_display" uiPreview="false" customize="false" id="display_close" name="tr:Display a close button"/>
+     </group>
+     <group conditionalParam="layer" conditionalValues="googlev3,openlayers,yandexv2" uiPreview="false" customize="false" id="advanced_specific" name="tr:Controls specific to main map layer">
+      <bool default="False" conditionalParam="layer" conditionalValues="googlev3" uiPreview="false" customize="false" id="streetview" name="tr:Display a Google streetview control"/>
+      <bool default="False" uiPreview="false" customize="false" id="overview" name="tr:Display a map overview"/>
+     </group>
+     <group conditionalParam="type_display" conditionalValues="over_display" uiPreview="false" customize="false" id="advanced_animation" name="tr:Animation">
+      <bool default="False" uiPreview="false" customize="false" id="animation" name="tr:Use animation to display map"/>
+      <number suffix=" ms" default="500" minimum="0" conditionalParam="animation" conditionalValues="true" maximum="99999" uiPreview="false" customize="false" id="animation_duration" name="tr:Animation duration"/>
+      <select default="left" conditionalParam="animation" conditionalValues="true" uiPreview="false" customize="false" id="start_position" name="tr:Start position">
+       <item value="top" name="Top"/>
+       <item value="right" name="Right"/>
+       <item value="bottom" name="Bottom"/>
+       <item value="left" name="Left"/>
+      </select>
+     </group>
+     <group conditionalParam="type_display" conditionalValues="over_display" uiPreview="false" customize="false" id="advancedBehaviors" name="tr:Behaviors">
+      <bool default="True" uiPreview="false" customize="false" id="autorotation" name="tr:Pause autorotation at the opening"/>
+      <bool default="False" uiPreview="false" customize="false" id="close_on_new_pano" name="tr:Close on new pano"/>
+      <bool default="False" uiPreview="false" customize="false" id="close_on_new_object_displayed" name="tr:Close when an other graphic object is displayed"/>
+     </group>
+    </param>
+   </plugin>
+   <plugin id="controlBar_urban" name="Urban Control Bar">
+    <param uiPreview="false" customize="false" id="position_group" name="tr:Position">
+     <position availableValues="topleft,topright,bottomleft,bottomright,bottom,top,left,right" needOrientation="true" x="0" y="10" xUnit="pixel" default="bottom" yUnit="pixel" uiPreview="false" customize="false" yUnits="pixel" defaultOrientation="horizontal" xUnits="pixel" id="position" name="tr:Position"/>
+    </param>
+    <param uiPreview="false" customize="false" id="display" name="tr:Display">
+     <color default="#0affdf" allowDynamicSource="false" uiPreview="false" customize="false" needAlpha="true" id="color" source="customColor" name="tr:Background color" defaultAlpha="0.4"/>
+     <bool default="True" uiPreview="false" customize="false" id="tooltips" name="tr:Show tooltips"/>
+    </param>
+    <param uiPreview="false" customize="false" id="controls" name="tr:Available controls">
+     <feature enabled="False" uiPreview="false" customize="false" forceEnabled="False" id="prevnext" name="tr:Previous/Next panorama" guiIcon="btn_next_scene.png" crop="0|0|50|50">
+      <string needTranslation="true" default="Previous panorama" conditionalParam="tooltips" conditionalValues="true" uiPreview="false" customize="false" id="prevSceneTip" name="tr:Previous panorama tooltip"/>
+      <string needTranslation="true" default="Next panorama" conditionalParam="tooltips" conditionalValues="true" uiPreview="false" customize="false" id="nextSceneTip" name="tr:Next panorama tooltip"/>
+     </feature>
+     <feature enabled="True" uiPreview="false" customize="false" forceEnabled="False" id="zoom" name="tr:Zoom" guiIcon="btn_zoom_in.png" crop="0|0|50|50">
+      <string needTranslation="true" default="Zoom in" conditionalParam="tooltips" conditionalValues="true" uiPreview="false" customize="false" id="zoomInTip" name="tr:Zoom in tooltip"/>
+      <string needTranslation="true" default="Zoom out" conditionalParam="tooltips" conditionalValues="true" uiPreview="false" customize="false" id="zoomOutTip" name="tr:Zoom out tooltip"/>
+     </feature>
+     <feature enabled="True" uiPreview="false" customize="false" forceEnabled="False" id="horizontalnavigation" name="tr:Move horizontally" guiIcon="btn_move_left.png" crop="0|0|50|50">
+      <string needTranslation="true" default="Move left" conditionalParam="tooltips" conditionalValues="true" uiPreview="false" customize="false" id="moveLeftTip" name="tr:Move left tooltip"/>
+      <string needTranslation="true" default="Move right" conditionalParam="tooltips" conditionalValues="true" uiPreview="false" customize="false" id="moveRightTip" name="tr:Move right tooltip"/>
+     </feature>
+     <feature enabled="True" uiPreview="false" customize="false" forceEnabled="False" id="verticalnavigation" name="tr:Move vertically" guiIcon="btn_move_up.png" crop="0|0|50|50">
+      <string needTranslation="true" default="Move up" conditionalParam="tooltips" conditionalValues="true" uiPreview="false" customize="false" id="moveUpTip" name="tr:Move up tooltip"/>
+      <string needTranslation="true" default="Move down" conditionalParam="tooltips" conditionalValues="true" uiPreview="false" customize="false" id="moveDownTip" name="tr:Move down tooltip"/>
+     </feature>
+     <feature enabled="False" uiPreview="false" customize="false" forceEnabled="False" id="home" name="tr:Home" guiIcon="btn_home.png" crop="0|48|48|48">
+      <string needTranslation="true" default="Home" conditionalParam="tooltips" conditionalValues="true" uiPreview="false" customize="false" id="homeTip" name="tr:Home tooltip"/>
+      <select default="currentpanoview" description="tr:Where does the home button go back" uiPreview="false" customize="false" id="homeAction" name="tr:Back to">
+       <item value="currentpanoview" name="Default view of current scene"/>
+       <item value="firstscene" name="First scene of the tour"/>
+       <item value="startscene" name="Start scene of the tour"/>
+      </select>
+      <label conditionalParam="homeAction" conditionalValues="firstscene" uiPreview="false" customize="false" id="firstscenedescription" name="tr:The scene described as the first one in the project."/>
+      <label conditionalParam="homeAction" conditionalValues="startscene" uiPreview="false" customize="false" id="startscenedescription" name="tr:The scene the user saw first. It can be different of the first scene, if the user used a deep link to enter the tour."/>
+     </feature>
+     <feature enabled="False" uiPreview="false" customize="false" forceEnabled="False" id="fullscreen" name="tr:Fullscreen" guiIcon="btn_enter_fs.png" crop="0|0|50|50">
+      <string needTranslation="true" default="Enter fullscreen" conditionalParam="tooltips" conditionalValues="true" uiPreview="false" customize="false" id="openFsTip" name="tr:Enter fullscreen tooltip"/>
+      <string needTranslation="true" default="Exit fullscreen" conditionalParam="tooltips" conditionalValues="true" uiPreview="false" customize="false" id="closeFsTip" name="tr:Exit fullscreen tooltip"/>
+     </feature>
+     <feature enabled="False" uiPreview="false" customize="false" forceEnabled="False" id="autorotation" name="tr:Start/stop autorotation" guiIcon="btn_start_autorotation.png" crop="0|0|50|50">
+      <string needTranslation="true" default="Start autorotation" conditionalParam="tooltips" conditionalValues="true" uiPreview="false" customize="false" id="autorotateOnTip" name="tr:Start autorotation tooltip"/>
+      <string needTranslation="true" default="Stop autorotation" conditionalParam="tooltips" conditionalValues="true" uiPreview="false" customize="false" id="autorotateOffTip" name="tr:Stop autorotation tooltip"/>
+      <bool default="False" uiPreview="false" customize="false" id="useAutorotationDelay" name="tr:On start autorotation action use the rotation delay of the panorama"/>
+     </feature>
+     <feature enabled="False" uiPreview="false" customize="false" forceEnabled="False" id="autotour" name="tr:Start/stop automatic tour" guiIcon="btn_start_automatic_tour.png" crop="0|0|50|50">
+      <string needTranslation="true" default="Start automatic tour" conditionalParam="tooltips" conditionalValues="true" uiPreview="false" customize="false" id="autotourOnTip" name="tr:Start automatic tour tooltip"/>
+      <string needTranslation="true" default="Stop automatic tour" conditionalParam="tooltips" conditionalValues="true" uiPreview="false" customize="false" id="autotourOffTip" name="tr:Stop automatic tour tooltip"/>
+     </feature>
+     <feature enabled="False" uiPreview="false" customize="false" forceEnabled="False" id="sounds" name="tr:Start/stop sounds" guiIcon="btn_stop_sound.png" crop="0|0|50|50">
+      <string needTranslation="true" default="Start sounds" conditionalParam="tooltips" conditionalValues="true" uiPreview="false" customize="false" id="soundsOnTip" name="tr:Start sounds tooltip"/>
+      <string needTranslation="true" default="Stop sounds" conditionalParam="tooltips" conditionalValues="true" uiPreview="false" customize="false" id="soundsOffTip" name="tr:Stop sounds tooltip"/>
+     </feature>
+     <feature enabled="False" uiPreview="false" customize="false" forceEnabled="False" id="hidespots" name="tr:Show/hide hotspots" guiIcon="btn_hide_show_hotspots.png" crop="0|0|50|50">
+      <string needTranslation="true" default="Show hotspots" conditionalParam="tooltips" conditionalValues="true" uiPreview="false" customize="false" id="showSpotsTip" name="tr:Show hotspots tooltip"/>
+      <string needTranslation="true" default="Hide hotspots" conditionalParam="tooltips" conditionalValues="true" uiPreview="false" customize="false" id="hideSpotsTip" name="tr:Hide hotspots tooltip"/>
+     </feature>
+     <feature enabled="False" uiPreview="false" customize="false" forceEnabled="False" id="hidethumbnails" name="tr:Show/hide thumbnails" guiIcon="btn_hide_thumbnails.png" crop="0|0|50|50">
+      <string needTranslation="true" default="Show thumbnails" conditionalParam="tooltips" conditionalValues="true" uiPreview="false" customize="false" id="showThumbnailsTip" name="tr:Show thumbnails tooltip"/>
+      <string needTranslation="true" default="Hide thumbnails" conditionalParam="tooltips" conditionalValues="true" uiPreview="false" customize="false" id="hideThumbnailsTip" name="tr:Hide thumbnails tooltip"/>
+      <label uiPreview="false" customize="false" id="thumbnailsTipMessage" name="tr:The show/hide thumbnails button dispatch a show/hide thumbnails request. This button will work only if you have a thumbnails plugin that will respond to this request."/>
+     </feature>
+     <feature enabled="False" uiPreview="false" customize="false" forceEnabled="False" id="gyro" name="tr:Enable/disable gyroscope" guiIcon="btn_gyroscope.png" crop="0|0|50|50">
+      <string needTranslation="true" default="Enable gyroscope" conditionalParam="tooltips" conditionalValues="true" uiPreview="false" customize="false" id="gyroOnTip" name="tr:Enable gyroscope tooltip"/>
+      <string needTranslation="true" default="Disable gyroscope" conditionalParam="tooltips" conditionalValues="true" uiPreview="false" customize="false" id="gyroOffTip" name="tr:Disable gyroscope tooltip"/>
+     </feature>
+     <feature enabled="False" uiPreview="false" customize="false" forceEnabled="False" id="displayfloorplan" name="tr:Show/hide floorplan" guiIcon="btn_floorplan.png" crop="0|0|50|50">
+      <string needTranslation="true" default="Show the floorplan" conditionalParam="tooltips" conditionalValues="true" uiPreview="false" customize="false" id="displayFloorplanTip" name="tr:Show floorplan tooltip"/>
+      <string needTranslation="true" default="Hide the floorplan" conditionalParam="tooltips" conditionalValues="true" uiPreview="false" customize="false" id="hideFloorplanTip" name="tr:Hide floorplan tooltip"/>
+      <label uiPreview="false" customize="false" id="floorplanTipMessage" name="tr:The show/hide floorplan button dispatch a show/hide floorplan request. This button will work only if you have a floorplan plugin that will respond to this request."/>
+     </feature>
+     <feature enabled="True" uiPreview="false" customize="false" forceEnabled="False" id="displaymap" name="tr:Show/hide map" guiIcon="btn_map.png" crop="0|0|50|50">
+      <string needTranslation="true" default="Show map" conditionalParam="tooltips" conditionalValues="true" uiPreview="false" customize="false" id="displayMapTip" name="tr:Show map tooltip"/>
+      <string needTranslation="true" default="Hide map" conditionalParam="tooltips" conditionalValues="true" uiPreview="false" customize="false" id="hideMapTip" name="tr:Hide map tooltip"/>
+      <label uiPreview="false" customize="false" id="mapTipMessage" name="tr:The show/hide map button dispatch a show/hide map request. This button will work only if you have a map plugin that will respond to this request."/>
+     </feature>
+     <feature enabled="False" uiPreview="false" customize="false" forceEnabled="False" id="share" name="tr:Share the tour" guiIcon="btn_share.png" crop="0|0|50|50">
+      <string needTranslation="true" default="Share the tour" conditionalParam="tooltips" conditionalValues="true" uiPreview="false" customize="false" id="shareTip" name="tr:Share tooltip"/>
+      <label uiPreview="false" customize="false" id="shareTipMessage" name="tr:The share tour button dispatch a share tour request. To have a share box on screen you have to add a plugin like the Social Share plugin that will respond to this request."/>
+     </feature>
+     <feature enabled="True" uiPreview="false" customize="false" forceEnabled="False" id="displayhelp" name="tr:Show/hide help screen" guiIcon="btn_help.png" crop="0|0|50|50">
+      <string needTranslation="true" default="Show help screen" conditionalParam="tooltips" conditionalValues="true" uiPreview="false" customize="false" id="displayHelpTip" name="tr:Show help screen tooltip"/>
+      <string needTranslation="true" default="Hide help screen" conditionalParam="tooltips" conditionalValues="true" uiPreview="false" customize="false" id="hideHelpTip" name="tr:Hide help screen tooltip"/>
+      <bool default="True" uiPreview="false" customize="false" id="useThemeHelpScreen" name="tr:Use the default theme help screen foreground"/>
+      <filechooser default="" conditionalParam="useThemeHelpScreen" conditionalValues="false" uiPreview="false" customize="false" id="helpscreenfg" allowRemote="true" name="tr:Help screen foreground" allowEmpty="false" filters="images"/>
+     </feature>
+     <feature enabled="True" uiPreview="false" customize="false" forceEnabled="False" id="displayinfo" name="tr:Show/hide information" guiIcon="btn_info.png" crop="0|0|50|50">
+      <string needTranslation="true" default="Show information" conditionalParam="tooltips" conditionalValues="true" uiPreview="false" customize="false" id="displayInfoTip" name="tr:Show information tooltip"/>
+      <string needTranslation="true" default="Hide information" conditionalParam="tooltips" conditionalValues="true" uiPreview="false" customize="false" id="hideInfoTip" name="tr:Hide information tooltip"/>
+      <label uiPreview="false" customize="false" id="infoTipMessage" name="tr:The show/hide information dispatch a show/hide information request. This button will work only if you have a plugin like Description that will respond to this request."/>
+     </feature>
+     <feature enabled="True" uiPreview="false" customize="false" forceEnabled="False" id="hidecontrols" name="tr:Show/hide controls " guiIcon="btn_hide_controls.png" crop="0|0|50|50">
+      <string needTranslation="true" default="Show controls" conditionalParam="tooltips" conditionalValues="true" uiPreview="false" customize="false" id="displayControlsTip" name="tr:Show controls tooltip"/>
+      <string needTranslation="true" default="Hide controls" conditionalParam="tooltips" conditionalValues="true" uiPreview="false" customize="false" id="hideControlsTip" name="tr:Hide controls tooltip"/>
+     </feature>
+     <feature enabled="True" uiPreview="false" customize="false" forceEnabled="False" id="mousecontrol" name="tr:Change mouse navigation mode " guiIcon="btn_drag_to.png" crop="0|0|50|50">
+      <string needTranslation="true" default="Change control mode" conditionalParam="tooltips" conditionalValues="true" uiPreview="false" customize="false" id="ctrlmodeDragTip" name="tr:'Drag to' mode tooltip"/>
+      <string needTranslation="true" default="Change control mode" conditionalParam="tooltips" conditionalValues="true" uiPreview="false" customize="false" id="ctrlmodeMoveTip" name="tr:'Move to' mode tooltip"/>
+     </feature>
+    </param>
+    <param conditionalParam="tooltips" conditionalValues="true" uiPreview="false" customize="false" id="tooltip_group" name="tr:Tooltips style">
+     <bool default="True" uiPreview="false" customize="false" id="custom_tooltips" name="tr:Use custom tooltips style"/>
+     <tooltipstyle conditionalParam="custom_tooltips" conditionalValues="true" uiPreview="false" customize="false" fontfamily="Helvetica" borderwidth="0" displayBackground="false" fontsize="14" shadowed="false" roundedge="0" id="custom_tooltips_style" fontstyle="bold" name="tr:Custom tooltips style">
+      <foregroundColor alpha="1" source="customColor" color="#000000"/>
+      <backgroundColor alpha="0.8" source="customColor" color="#ff9321"/>
+      <borderColor alpha="1" source="customColor" color="#ffffff"/>
+      <shadowColor alpha="1" source="customColor" color="#000000"/>
+     </tooltipstyle>
+    </param>
+    <param uiPreview="false" customize="false" id="behaviors" name="tr:Behavior">
+     <bool default="False" description="tr:Show/hide this component when the user triggers a show/hide controls request from an other component" uiPreview="false" customize="false" id="hideonhidecontrols" name="tr:Respond to show/hide controls request"/>
+    </param>
+   </plugin>
+  </plugins>
+  <mapWeb x="-1" y="-1" zoom="11" longitude="52.1699752808" objectId="15" latitude="58.6655273438">
+   <description/>
+   <autospots>
+    <spot x="-1" y="-1" relativeX="0" relativeY="0" locked="True" type="pointmap" autospotid="9" objectId="16">
+     <description gpsAutospot="true">
+      <gps longitude="52.1725273132" latitude="58.6646652222"/>
+     </description>
+     <presetAction id="user_defaultmap0">
+      <action startPitch="0" targetId="9" category="basic" description="Go to Памятник &quot;Слава труду&quot; и Маяк" callTemplate="loadpanoramaactioncall.tmpl" depends="" sourceId="-1" startFov="90" locked="False" customTargetView="False" type="Object" id="object" name="Go to a panorama or a group" internal="0" contentTemplate="" startYaw="0">
+       <select default="none" uiPreview="false" customize="true" id="sourcetransition" name="Source transition">
+        <item value="none" name="None"/>
+        <item value="zoomoutonpanorama" name="Zoom out"/>
+       </select>
+       <select default="loadspotview" uiPreview="false" customize="true" id="targettransition" name="Target transition">
+        <item value="none" name="None"/>
+        <item value="spotviewtopanoview" name="Custom view to panorama view"/>
+        <item value="loadspotview" name="Load custom view"/>
+        <item value="loadpanoview" name="Load panorama view"/>
+        <item value="panoviewtospotview" name="Panorama view to custom view"/>
+       </select>
+      </action>
+     </presetAction>
+    </spot>
+    <spot x="-1" y="-1" relativeX="0" relativeY="0" locked="True" type="pointmap" autospotid="11" objectId="18">
+     <description gpsAutospot="true">
+      <gps longitude="52.1733131409" latitude="58.6655883789"/>
+     </description>
+     <presetAction id="user_defaultmap0">
+      <action startPitch="0" targetId="11" category="basic" description="Go to Дом управляющего" callTemplate="loadpanoramaactioncall.tmpl" depends="" sourceId="-1" startFov="90" locked="False" customTargetView="False" type="Object" id="object" name="Go to a panorama or a group" internal="0" contentTemplate="" startYaw="0">
+       <select default="none" uiPreview="false" customize="true" id="sourcetransition" name="Source transition">
+        <item value="none" name="None"/>
+        <item value="zoomoutonpanorama" name="Zoom out"/>
+       </select>
+       <select default="loadspotview" uiPreview="false" customize="true" id="targettransition" name="Target transition">
+        <item value="none" name="None"/>
+        <item value="spotviewtopanoview" name="Custom view to panorama view"/>
+        <item value="loadspotview" name="Load custom view"/>
+        <item value="loadpanoview" name="Load panorama view"/>
+        <item value="panoviewtospotview" name="Panorama view to custom view"/>
+       </select>
+      </action>
+     </presetAction>
+    </spot>
+    <spot x="-1" y="-1" relativeX="0" relativeY="0" locked="True" type="pointmap" autospotid="10" objectId="17">
+     <description gpsAutospot="true">
+      <gps longitude="52.1699752808" latitude="58.6655273438"/>
+     </description>
+     <presetAction id="user_defaultmap0">
+      <action startPitch="0" targetId="10" category="basic" description="Go to Набережная пруда" callTemplate="loadpanoramaactioncall.tmpl" depends="" sourceId="-1" startFov="90" locked="False" customTargetView="False" type="Object" id="object" name="Go to a panorama or a group" internal="0" contentTemplate="" startYaw="0">
+       <select default="none" uiPreview="false" customize="true" id="sourcetransition" name="Source transition">
+        <item value="none" name="None"/>
+        <item value="zoomoutonpanorama" name="Zoom out"/>
+       </select>
+       <select default="loadspotview" uiPreview="false" customize="true" id="targettransition" name="Target transition">
+        <item value="none" name="None"/>
+        <item value="spotviewtopanoview" name="Custom view to panorama view"/>
+        <item value="loadspotview" name="Load custom view"/>
+        <item value="loadpanoview" name="Load panorama view"/>
+        <item value="panoviewtospotview" name="Panorama view to custom view"/>
+       </select>
+      </action>
+     </presetAction>
+    </spot>
+   </autospots>
+  </mapWeb>
+  <author url="" objectId="1">
+   <description/>
+  </author>
+  <tooltipstyle fontfamily="Arial" borderwidth="0" displayBackground="false" fontsize="14" shadowed="true" roundedge="0" fontstyle="bold">
+   <foregroundColor alpha="1" source="customColor" color="#ffffff"/>
+   <backgroundColor alpha="1" source="customColor" color="#aeaeae"/>
+   <borderColor alpha="1" source="customColor" color="#ffffff"/>
+   <shadowColor alpha="1" source="customColor" color="#000000"/>
+  </tooltipstyle>
+  <presetActions>
+   <presetAction isDefault="True" locked="False" type="actionicon" timestamp="0" id="user_defaultpoint0" objectId="0" spotType="point">
+    <description description="tr:This is the default preset for point spots" previewFile=":/UI/spotpointpreview.png" name="Default Point Spot Style 1"/>
+    <display type="point">
+     <bool default="True" uiPreview="false" customize="false" id="fileorlib" name="Use icon from library"/>
+     <filechooser default="" conditionalParam="fileorlib" conditionalValues="false" uiPreview="false" customize="false" id="icon" allowRemote="true" name="Icon file" allowEmpty="false" filters="images,flash"/>
+     <spoticonchooser default="theme02|tr:Information|sequence" conditionalParam="fileorlib" conditionalValues="true" uiPreview="false" customize="false" id="iconChooser" name="Icon" allowSequences="true"/>
+     <row conditionalParam="fileorlib" conditionalValues="true" uiPreview="false" customize="false" id="rowcolor">
+      <bool default="True" uiPreview="false" customize="false" id="customcolor" name="Custom color"/>
+      <color default="#00d3fd" conditionalParam="customcolor" conditionalValues="true" allowDynamicSource="false" uiPreview="false" customize="false" needAlpha="true" id="iconcolor" source="customColor" name="Color" defaultAlpha="0.7"/>
+     </row>
+     <size uiPreview="false" customize="false" needKeepRatio="false" id="size" name="Size">
+      <dimension default="0" minimum="0" currentUnit="pixel" maximum="999" uiPreview="false" customize="false" availableUnits="pixel" needAutomatic="false" id="width" name="Width"/>
+      <dimension default="0" minimum="0" currentUnit="pixel" maximum="999" uiPreview="false" customize="false" availableUnits="pixel" needAutomatic="false" id="height" name="Height"/>
+     </size>
+     <advanced uiPreview="false" customize="false" id="advancedGrp">
+      <bool default="False" uiPreview="false" customize="false" id="zoom" name="Change size according to zoom level"/>
+      <bool default="False" uiPreview="false" customize="false" id="alphaonhover" name="Change transparency on over"/>
+      <bool default="False" uiPreview="false" customize="false" id="scaleonhover" name="Scale on over"/>
+      <number suffix=" °" default="0" minimum="0" maximum="360" uiPreview="false" customize="false" id="rotationAngle" name="Rotation angle"/>
+      <select default="center" uiPreview="false" customize="false" id="anchor" name="Anchor position">
+       <item value="center" name="Center"/>
+       <item value="bottom" name="Bottom"/>
+      </select>
+     </advanced>
+    </display>
+    <display type="common">
+     <bool default="False" uiPreview="false" customize="false" id="pauserotationonhover" name="Pause autorotation on hover"/>
+     <string needTranslation="true" default="" uiPreview="false" customize="false" id="tooltipTemplate" name="Tooltip template"/>
+    </display>
+    <action startPitch="0" targetId="-1" category="basic" description="Load a specific panorama or the first panorama of a specific group." callTemplate="loadpanoramaactioncall.tmpl" depends="" sourceId="-1" startFov="0" locked="False" customTargetView="False" type="Object" id="object" name="Go to a panorama or a group" internal="0" contentTemplate="" startYaw="0">
+     <select default="none" uiPreview="false" customize="true" id="sourcetransition" name="Source transition">
+      <item value="none" name="None"/>
+      <item value="zoominonspot" name="Zoom in on the spot"/>
+      <item value="zoomoutonpanorama" name="Zoom out"/>
+     </select>
+     <select default="loadspotview" uiPreview="false" customize="true" id="targettransition" name="Target transition">
+      <item value="none" name="None"/>
+      <item value="spotviewtopanoview" name="Custom view to panorama view"/>
+      <item value="loadspotview" name="Load custom view"/>
+      <item value="loadpanoview" name="Load panorama view"/>
+      <item value="panoviewtospotview" name="Panorama view to custom view"/>
+     </select>
+    </action>
+   </presetAction>
+   <presetAction isDefault="True" locked="False" type="actionlensflare" timestamp="0" id="user_defaultlensflare0" objectId="0" spotType="lensflare">
+    <description description="tr:This is the default preset for lensflares" previewFile=":/UI/spotlensflarepreview.png" name="Default Lensflare Style 1"/>
+   </presetAction>
+   <presetAction isDefault="True" locked="False" type="actioniconmap" timestamp="0" id="user_defaultmap0" objectId="0" spotType="pointmap">
+    <description description="tr:This is the default preset" previewFile="C:/Program Files/Kolor/Panotour Pro 2.3/Resources/spots/mini/hotspot_information.png" name="Default Map Spot Style 1"/>
+    <display type="pointmap">
+     <bool default="True" uiPreview="false" customize="false" id="fileorlib" name="Use icon from library"/>
+     <filechooser default="" conditionalParam="fileorlib" conditionalValues="false" uiPreview="false" customize="false" id="icon" allowRemote="true" name="Icon file" allowEmpty="false" filters="images,flash"/>
+     <spoticonchooser default="theme07|tr:Information|image" conditionalParam="fileorlib" conditionalValues="true" uiPreview="false" customize="false" id="iconChooser" name="Icon" allowSequences="false"/>
+     <row conditionalParam="fileorlib" conditionalValues="true" uiPreview="false" customize="false" id="rowcolor">
+      <bool default="True" uiPreview="false" customize="false" id="customcolor" name="Custom color"/>
+      <color default="#20f2fd" conditionalParam="customcolor" conditionalValues="true" allowDynamicSource="false" uiPreview="false" customize="false" needAlpha="true" id="iconcolor" source="customColor" name="Color" defaultAlpha="1"/>
+     </row>
+     <size uiPreview="false" customize="false" needKeepRatio="false" id="size" name="Size">
+      <dimension default="0" minimum="0" currentUnit="pixel" maximum="999" uiPreview="false" customize="false" availableUnits="pixel" needAutomatic="false" id="width" name="Width"/>
+      <dimension default="0" minimum="0" currentUnit="pixel" maximum="999" uiPreview="false" customize="false" availableUnits="pixel" needAutomatic="false" id="height" name="Height"/>
+     </size>
+     <advanced uiPreview="false" customize="false" id="advancedGrp">
+      <select default="center" uiPreview="false" customize="false" id="anchor" name="Anchor position">
+       <item value="center" name="Center"/>
+       <item value="bottom" name="Bottom"/>
+      </select>
+     </advanced>
+    </display>
+    <display type="common">
+     <bool default="False" uiPreview="false" customize="false" id="pauserotationonhover" name="Pause autorotation on hover"/>
+     <string needTranslation="true" default="" uiPreview="false" customize="false" id="tooltipTemplate" name="Tooltip template"/>
+    </display>
+    <action startPitch="0" targetId="-1" category="basic" description="Load a specific panorama or the first panorama of a specific group." callTemplate="loadpanoramaactioncall.tmpl" depends="" sourceId="-1" startFov="0" locked="False" customTargetView="False" type="Object" id="object" name="Go to a panorama or a group" internal="0" contentTemplate="" startYaw="0">
+     <select default="none" uiPreview="false" customize="true" id="sourcetransition" name="Source transition">
+      <item value="none" name="None"/>
+      <item value="zoomoutonpanorama" name="Zoom out"/>
+     </select>
+     <select default="loadspotview" uiPreview="false" customize="true" id="targettransition" name="Target transition">
+      <item value="none" name="None"/>
+      <item value="spotviewtopanoview" name="Custom view to panorama view"/>
+      <item value="loadspotview" name="Load custom view"/>
+      <item value="loadpanoview" name="Load panorama view"/>
+      <item value="panoviewtospotview" name="Panorama view to custom view"/>
+     </select>
+    </action>
+   </presetAction>
+   <presetAction isDefault="True" locked="False" type="actionrectpicture" timestamp="0" id="user_defaultimage0" objectId="0" spotType="rectpicture">
+    <description description="tr:This is the default preset for picture hotspots" previewFile=":/UI/spotpicturepreview.png" name="Default Picture Spot Style 1"/>
+    <display type="rectpicture">
+     <bool default="False" uiPreview="false" customize="false" id="flyonclick" name="Maximize picture on click"/>
+     <dimension default="0" minimum="0" currentUnit="pixel" conditionalParam="flyonclick" conditionalValues="true" maximum="9999" uiPreview="false" customize="false" availableUnits="pixel" needAutomatic="false" id="flyingwidth" name="Maximized width"/>
+     <dimension default="0" minimum="0" currentUnit="pixel" conditionalParam="flyonclick" conditionalValues="true" maximum="9999" uiPreview="false" customize="false" availableUnits="pixel" needAutomatic="false" id="flyingheight" name="Maximized height"/>
+     <bool default="False" conditionalParam="flyonclick" conditionalValues="true" uiPreview="false" customize="false" id="hiddenwhennotflying" name="Hidden when not maximized"/>
+     <advanced uiPreview="false" customize="false" id="advancedGrp">
+      <bool default="False" uiPreview="false" customize="false" id="parallax" name="Parallax effect"/>
+      <select default="0.5" conditionalParam="parallax" conditionalValues="true" uiPreview="false" customize="false" id="parallaxstrength" name="Parallax strength">
+       <item value="0.25" name="Small"/>
+       <item value="0.5" name="Medium"/>
+       <item value="0.75" name="Large"/>
+       <item value="1.00" name="Maximum"/>
+      </select>
+      <select default="rotation" conditionalParam="parallax" conditionalValues="true" uiPreview="false" customize="false" id="parallaxmode" name="Parallax mode">
+       <item value="rotation" name="Move in same direction as the sphere"/>
+       <item value="displacement" name="Move in opposite direction of the sphere"/>
+      </select>
+     </advanced>
+    </display>
+    <display type="common">
+     <bool default="False" uiPreview="false" customize="false" id="pauserotationonhover" name="Pause autorotation on hover"/>
+     <string needTranslation="true" default="" uiPreview="false" customize="false" id="tooltipTemplate" name="Tooltip template"/>
+    </display>
+    <action category="" description="" callTemplate="" depends="" locked="False" type="" id="none" name="" internal="0" contentTemplate=""/>
+   </presetAction>
+   <presetAction isDefault="True" locked="False" type="actionpolygon" timestamp="0" id="user_defaultpolygon0" objectId="0" spotType="polygon">
+    <description description="tr:This is the default preset for polygon hotspots" previewFile=":/UI/spotpolygonpreview.png" name="Default Polygon Spot Style 1"/>
+    <display type="polygon">
+     <select default="always" uiPreview="false" customize="false" id="displayedwhen" name="Hotspots displayed">
+      <item value="always" name="Always"/>
+      <item value="onhover" name="On hover"/>
+      <item value="never" name="Never"/>
+     </select>
+     <color default="#ffffff" allowDynamicSource="false" uiPreview="false" customize="false" needAlpha="true" id="bordercolor" source="customColor" name="Border Color" defaultAlpha="1"/>
+     <color default="#ffffff" allowDynamicSource="false" uiPreview="false" customize="false" needAlpha="true" id="fillcolor" source="customColor" name="Fill Color" defaultAlpha="0.4"/>
+    </display>
+    <display type="common">
+     <bool default="False" uiPreview="false" customize="false" id="pauserotationonhover" name="Pause autorotation on hover"/>
+     <string needTranslation="true" default="" uiPreview="false" customize="false" id="tooltipTemplate" name="Tooltip template"/>
+    </display>
+    <action startPitch="0" targetId="-1" category="basic" description="Load a specific panorama or the first panorama of a specific group." callTemplate="loadpanoramaactioncall.tmpl" depends="" sourceId="-1" startFov="0" locked="False" customTargetView="False" type="Object" id="object" name="Go to a panorama or a group" internal="0" contentTemplate="" startYaw="0">
+     <select default="none" uiPreview="false" customize="true" id="sourcetransition" name="Source transition">
+      <item value="none" name="None"/>
+      <item value="zoominonspot" name="Zoom in on the spot"/>
+      <item value="zoomoutonpanorama" name="Zoom out"/>
+     </select>
+     <select default="loadspotview" uiPreview="false" customize="true" id="targettransition" name="Target transition">
+      <item value="none" name="None"/>
+      <item value="spotviewtopanoview" name="Custom view to panorama view"/>
+      <item value="loadspotview" name="Load custom view"/>
+      <item value="loadpanoview" name="Load panorama view"/>
+      <item value="panoviewtospotview" name="Panorama view to custom view"/>
+     </select>
+    </action>
+   </presetAction>
+   <presetAction isDefault="True" locked="False" type="actionsound" timestamp="0" id="user_defaultsound0" objectId="0" spotType="sound">
+    <description description="tr:This is the default preset for sound hotspots" previewFile=":/UI/spotsoundpreview.png" name="Default Sound Spot Style 1"/>
+    <display type="sound">
+     <bool default="True" uiPreview="false" customize="false" id="endless" name="Endless sound"/>
+     <number suffix="" default="1" minimum="1" conditionalParam="endless" conditionalValues="false" maximum="9999" uiPreview="false" customize="false" id="loops" name="Number of loops"/>
+     <number suffix=" °" default="90" minimum="0" maximum="360" uiPreview="false" customize="false" id="range" name="Sound Range"/>
+    </display>
+   </presetAction>
+   <presetAction isDefault="True" locked="False" type="actionrectvideo" timestamp="0" id="user_defaultvideo0" objectId="0" spotType="rectvideo,livepano">
+    <description description="tr:This is the default preset for video hotspots" previewFile=":/UI/spotvideopreview.png" name="Default Video Spot Style 1"/>
+    <display type="rectvideo">
+     <bool default="True" uiPreview="false" customize="false" id="loop" name="Loop when reaching end"/>
+     <bool default="False" uiPreview="false" customize="false" id="pausedonstart" name="Paused on start"/>
+     <bool default="False" uiPreview="false" customize="false" id="controlsplaypause" name="Display Play and Pause buttons over the video"/>
+     <bool default="True" uiPreview="false" customize="false" id="directionalsound" name="Directional sound"/>
+     <number suffix=" °" default="90" minimum="0" conditionalParam="directionalsound" conditionalValues="true" maximum="360" uiPreview="false" customize="false" id="range" name="Sound Range"/>
+     <advanced uiPreview="false" customize="false" id="advancedGrp">
+      <bool default="True" uiPreview="false" customize="false" id="useloaderanimation" name="Display a loading animation before the video is displayed"/>
+      <bool default="True" uiPreview="false" customize="false" id="pausebackgroundsound" name="Pause other sounds when video is playing"/>
+      <bool default="False" uiPreview="false" customize="false" id="parallax" name="Parallax effect"/>
+      <select default="0.5" conditionalParam="parallax" conditionalValues="true" uiPreview="false" customize="false" id="parallaxstrength" name="Parallax strength">
+       <item value="0.25" name="Small"/>
+       <item value="0.5" name="Medium"/>
+       <item value="0.75" name="Large"/>
+       <item value="1.00" name="Maximum"/>
+      </select>
+      <select default="rotation" conditionalParam="parallax" conditionalValues="true" uiPreview="false" customize="false" id="parallaxmode" name="Parallax mode">
+       <item value="rotation" name="Move in same direction as the sphere"/>
+       <item value="displacement" name="Move in opposite direction of the sphere"/>
+      </select>
+     </advanced>
+    </display>
+    <display type="common">
+     <bool default="False" uiPreview="false" customize="false" id="pauserotationonhover" name="Pause autorotation on hover"/>
+     <string needTranslation="true" default="" uiPreview="false" customize="false" id="tooltipTemplate" name="Tooltip template"/>
+    </display>
+    <action category="" description="" callTemplate="" depends="" locked="False" type="" id="none" name="" internal="0" contentTemplate=""/>
+   </presetAction>
+  </presetActions>
+ </project>
+ <filesCache/>
+</panotour>
