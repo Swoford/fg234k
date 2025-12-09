@@ -1,0 +1,1123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<krpano version="1.18">
+
+    
+  <!-- Spot Style - Default Point Spot Style 1 -->
+  <style name="IconDefaultPointSpotStyle1"
+         url="%FIRSTXML%/spots/hotspot_information_sequence_user_defaultpoint0.png"
+         visible="false"
+         frame="0"
+         lastframe="13"
+         framewidth="40"
+         frameheight="60"
+         stopspotsequence="false"
+         onloaded="setdefaultanimatedspotframe();startspotanimation(0.1);"
+         onhover="onhoverIconDefaultPointSpotStyle1"
+         onout="onoutIconDefaultPointSpotStyle1"
+         />
+  <action name="onhoverIconDefaultPointSpotStyle1">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoutIconDefaultPointSpotStyle1">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+  <!-- unsupported kind of display : PointMap -->
+
+
+      
+  <!-- Picture Spot Style - Default Picture Spot Style 1 -->
+  <style name="RectPictureDefaultPictureSpotStyle1"
+         distorted="true"
+         visible="false"
+         scale="1.0" 
+         onhover="onhoverRectPictureDefaultPictureSpotStyle1"
+         onout="onoutRectPictureDefaultPictureSpotStyle1"
+         />
+  <action name="onhoverRectPictureDefaultPictureSpotStyle1">
+    showTooltip('hotspot');
+  </action>
+  <action name="onoutRectPictureDefaultPictureSpotStyle1">
+    hideTooltip();
+  </action>
+
+
+
+  <!-- ******************************************** -->
+  <!-- Picture : bottomleft -->
+  <!-- ******************************************** -->
+  <layer name="picture"
+         keep="true"
+         url="%FIRSTXML%/graphics/picture/photo_5192723840525010958_y__1_.jpg" 
+         align="bottomleft"
+         x="10"
+         y="10"
+         zorder="0"
+         handcursor="false"
+         enabled="false"
+         visible="false"
+         height="125"
+         width="125"
+         />
+
+  <events name="pictureevents" 
+    onTourStart="showpicture();"
+    hidetourcontrols="hidepicture();" 
+    showtourcontrols="showpicture();" 
+    keep="true" />
+
+  <action name="hidepicture">set(layer[picture].visible, false);</action>
+  <action name="showpicture">set(layer[picture].visible, true);</action>
+
+
+  <!-- ******* -->
+  <!-- Compass -->
+  <!-- ******* -->
+
+
+  <layer name="compassbackground"
+         url="%FIRSTXML%/graphics/compass/compassbg53a0d7.png"
+         keep="true"
+         handcursor="false"
+         capture="false"
+         align="topleft"
+         x="0"
+         y="0"
+         zorder="1"
+         visible="false"
+
+         height="100"
+         width="100"
+
+         >
+
+
+    <layer name="compasspointer"
+           url="%FIRSTXML%/graphics/compass/compasspointerb17135.png"
+           keep="true"
+           align="center"
+           handcursor="false"
+           capture="false"
+           zorder="1"
+           height="100%"
+           width="100%"
+
+          />
+  </layer>
+
+  <events name="compassevts"
+          keep="true"
+          onnewpano="compassUpdateOrientation();"
+          onviewchanged="compassUpdateOrientation();"
+    onTourStart="showcompass();"
+          hidetourcontrols="hidecompass();"
+          showtourcontrols="showcompass();"
+         />
+
+  <action name="compassUpdateOrientation">
+	mod(compasshlookat, view.hlookat, 360);
+    mul(compassheading, -1, get(scene[get(xml.scene)].heading));
+    if (compassheading == null, set(compassheading, 0));
+	sub(layer[compasspointer].rotate, compasshlookat, compassheading);
+  </action>
+
+ 
+  <action name="hidecompass">
+    set(layer[compassbackground].visible, false);
+  </action>
+  <action name="showcompass">
+    set(layer[compassbackground].visible, true);
+  </action>
+
+
+  <!-- ******************** -->
+  <!-- Combobox : panoramas -->
+  <!-- ******************** -->
+
+
+<events name="combopanolistallpanoramasStartTourEvents" onTourStart="set(layer[combopanolistallpanoramas].isStarted, true);if(layer[combopanolistallpanoramas].isLoaded,combopanolistallpanoramasShow(););" keep="true" />
+
+
+  <layer name="combopanolistallpanoramas"
+         url="%FIRSTXML%/graphics/combobox.swf"
+         alturl="%FIRSTXML%/graphics/combobox.js"
+         keep="true"
+         visible="false"
+         zorder="2"
+         align="top"
+         x="5" y="10"
+         rowcount="10"
+         onloaded="combopanolistallpanoramasLoaded();"
+         isStarted="false"
+         isLoaded="false"
+         itemcount="0"
+         />
+
+  <action name="combopanolistallpanoramasLoaded">
+    
+    layer[combopanolistallpanoramas].removeAll();
+    set(layer[combopanolistallpanoramas].itemcount, 0);
+    
+    combopanolistallpanoramasAddItem(pano9_title, pano9, pano9, false);
+    combopanolistallpanoramasAddItem(pano10_title, pano10, pano10, false);
+    combopanolistallpanoramasAddItem(pano11_title, pano11, pano11, false);
+    set(layer[combopanolistallpanoramas].isLoaded, true);
+    
+    if(layer[combopanolistallpanoramas].isStarted,
+      combopanolistallpanoramasShow();
+    );
+  </action>
+
+
+  <action name="combopanolistallpanoramasAddItem">
+    getmessage(caption, %1);
+    
+    indexoftxt(found, get(caption), '&amp;');
+    if(found GE 0,
+      subtxt(part1, get(caption), 0, get(found));
+      add(found, 5);
+      subtxt(part2, get(caption), get(found), get(caption.length));
+      txtadd(caption, get(part1), '&amp;', get(part2));
+    );
+    if(%4,
+      txtadd(title, "&#x00A0;&#x00A0;&#x00A0;", get(caption));
+    ,
+      set(title, get(caption));
+    );
+    layer[combopanolistallpanoramas].addIdItem(%2, get(title), mainloadscene(%3));
+    inc(layer[combopanolistallpanoramas].itemcount);
+  </action>
+
+  <events name="combopanolistallpanoramasEvents"
+          hidetourcontrols="combopanolistallpanoramasHide();"
+          showtourcontrols="combopanolistallpanoramasShow();"
+          onnewpano="combopanolistallpanoramasOnPanorama();"
+          keep="true"/>
+
+  <action name="combopanolistallpanoramasHide">
+    set(layer[combopanolistallpanoramas].visible, false);
+  </action>
+  <action name="combopanolistallpanoramasShow">
+  if(layer[combopanolistallpanoramas].isLoaded,
+    if (layer[combopanolistallpanoramas].itemcount GT 0,
+      set(layer[combopanolistallpanoramas].visible, true);
+    ,
+      set(layer[combopanolistallpanoramas].visible, false);
+    );
+  ,
+    set(layer[combopanolistallpanoramas].visible, false);
+  );
+  </action>
+
+  <action name="combopanolistallpanoramasOnPanorama">
+    if(layer[combopanolistallpanoramas].isLoaded,
+      combopanolistallpanoramasUpdateList();
+    ,
+      delayedcall(0.2, combopanolistallpanoramasOnPanorama);
+    );
+  </action>
+
+
+  <action name="combopanolistallpanoramasUpdateList">
+    set(itemtoselect, get(scene[get(xml.scene)].name));
+    layer[combopanolistallpanoramas].selectIdItem(get(itemtoselect));
+  </action>
+
+
+  <!-- *********** -->
+  <!-- Description -->
+  <!-- *********** -->
+
+
+<ptplugin name="description" canStart="false" newPano="false" openatstart="false" startMethod="showPanoDescription-description" engine="kolorArea">
+	<settings>
+		<option name="position" value="right" type="string" />
+		<option name="start_position" value="left" type="string" />
+		<option name="margin_x" value="0" type="int" />
+		<option name="margin_y" value="0" type="int" />
+		<option name="background_color" value="f2f2f2" type="string" />
+		<option name="background_alpha" value="1" type="float" />
+		<option name="topleft_radius" value="0" type="int" />
+		<option name="topright_radius" value="0" type="int" />
+		<option name="bottomleft_radius" value="0" type="int" />
+		<option name="bottomright_radius" value="0" type="int" />
+		<option name="area_border_width" value="0" type="int" />
+		<option name="area_border_color" value="f2f2f2" type="string" />
+		<option name="padding" value="15" type="int" />
+		<option name="display_title" value="false" type="bool" />
+		<option name="close_displayed" value="false" type="bool" />
+		<option name="overlay_displayed" value="false" type="bool" />
+		<option name="overlay_color" value="000000" type="string" />
+		<option name="overlay_alpha" value="0.500007629510948" type="float" />
+		<option name="area_width" value="20" type="int" />
+		<option name="area_height" value="100" type="int" />
+		<option name="area_width_unit" value="percent" type="string" />
+		<option name="area_height_unit" value="percent" type="string" />
+		<option name="animation" value="false" type="bool" />
+		<option name="animation_duration" value="500" type="int" />
+		<option name="refresh_content" value="true" type="bool" />
+		<option name="close_callback" value="invokeKrFunction('closeKolorAreaCallback-description')" type="string" />
+		<option name="close_on_click" value="false" type="bool" />
+		<option name="zorder" value="3" type="int" />
+		<option name="use_i18n" value="true" type="bool" />
+	</settings>
+</ptplugin>
+
+<action name="kolorAreaJsReady-description">
+	set(ptplugin[description].jsready, true);
+</action>
+
+<action name="updateTitle-description">
+	js(invokePluginFunction(description, changeTitle, get(scene[get(xml.scene)].titleid)));
+</action>
+
+<action name="openKolorArea-description">
+	set(ptplugin[description].isOpen, true);
+	js(showKolorArea(description, get(ptplugin[description].descID)));
+</action>
+
+<action name="closeKolorArea-description">
+	set(ptplugin[description].isOpen, false);
+	js(invokePluginFunction(description, closeKolorArea));
+</action>
+
+<action name="toggleKolorArea-description">
+	if(ptplugin[description].isOpen,
+		closeKolorArea-description();
+	,
+		openKolorArea-description();
+	);
+</action>
+
+<action name="closeKolorAreaCallback-description">
+	set(ptplugin[description].isOpen, false);
+	if(tour_displayinfo,hideTourInfo();
+
+	);
+</action>
+
+
+
+<action name="showKolorArea-description">
+	ifnot(ptplugin[description].startMethod == "",
+		delayedcall(0,get(ptplugin[description].startMethod));
+	,
+		js(invokePluginFunction(description, showKolorArea, %1));
+	);
+</action>
+	
+<action name="hideKolorArea-description">
+	js(invokePluginFunction(description, hideKolorArea, %1));
+</action>
+
+<action name="openDescription-description">
+	openKolorArea-description();
+</action>
+
+<action name="openSpotDescription-description">
+	set(ptplugin[description].descID, %1);
+	openKolorArea-description();
+</action>
+
+<action name="closeDescription-description">
+	set(ptplugin[description].currentGroup, false);
+	closeKolorArea-description();
+</action> 
+
+
+
+<action name="showPanoDescription-description">
+	if(ptplugin[description].canStart,
+		set(ptplugin[description].descID, get(scene[get(xml.scene)].descriptionid));
+		if(ptplugin[description].descID == null,
+			set(ptplugin[description].descID, "");
+		);
+		if(ptplugin[description].descID != "",
+			openDescription-description();
+		,
+			hideKolorArea-description(false);
+		);
+		set(ptplugin[description].startMethod, "");
+	);
+</action>
+
+<action name="refreshPanoDescription-description">
+	set(ptplugin[description].descID, get(scene[get(xml.scene)].descriptionid));
+	if(ptplugin[description].descID == null,
+		set(ptplugin[description].descID, "");
+	);
+	if(ptplugin[description].descID != "",
+		if(ptplugin[description].isOpen,
+			js(invokePluginFunction(description, updateKolorArea, get(ptplugin[description].descID)));
+		);
+	,
+		if(tour_displayinfo,
+			delayedcall(0.1,showTourInfo();
+);
+		);
+		closeDescription-description();
+	);
+</action>
+
+<action name="onNewPano-description">
+	if(ptplugin[description].newPano,
+		if(ptplugin[description].startMethod == "",
+			if(ptplugin[description].isOpen,
+				refreshPanoDescription-description();
+			,
+				if(tour_displayinfo,
+				showPanoDescription-description();
+				,
+				refreshPanoDescription-description();
+				);
+			);
+		);
+	);
+	set(ptplugin[description].newPano, true);
+</action>
+
+<events name="kolorAreaEvents-description" 
+	keep="true"
+	onTourStart="set(ptplugin[description].canStart, true);if(ptplugin[description].openatstart,showTourInfo();
+);"
+	onshowtourinfo="showPanoDescription-description();"
+	onhidetourinfo="closeDescription-description();"
+	onnewpano="onNewPano-description();"
+/>
+
+	
+	<!-- ************ -->
+	<!-- PanotourMaps -->
+	<!-- ************ -->
+	
+		<ptplugin name="panotourmaps" lat="58.6655273438" lng="52.1699752808" zoom="11" maptypelayer="hybrid" position="left" size="30" resizable="true" multimap="false" openatstart="false" state="false" bgcolor="f2f2f2" zorder="4" centeronspots="true" engine="KolorMap">
+	
+		<radar visible="true" radius="8000" linktozoom="true" quality="8" linecolor="ffffff" lineopacity="0.500007629510948" linewidth="1" fillcolor="ffffff" fillopacity="0.300007629510948" />
+		
+		<markers animation="bounce" />
+		
+		
+		<controls zoom="true" pan="true" scale="false" maptype="true" overview="false">
+			<ui draggable="true" scrollable="true" dblclick="true" />
+		</controls>
+		
+		<markerSelected name="" heading="" fov="" />
+		
+		
+		
+			<!-- PanotourMaps markers counter : 3 -->
+				<marker name="spotmap16" lat="58.6646652222" lng="52.1725273132" heading="87.1999999999978" draggable="false" desc="spotmap16_tooltip" desctype="info" onhover="false" isscene="true" scene="pano9" jsclick="spotmap16ActionSpotMap">
+					<markericon url="spots/hotspot_information_user_defaultmap0.png" iconwidth="32" iconheight="32" shadow="false" iconanchor="center" />
+				</marker>
+				<marker name="spotmap17" lat="58.6655273438" lng="52.1699752808" heading="-44.9999999999979" draggable="false" desc="spotmap17_tooltip" desctype="info" onhover="false" isscene="true" scene="pano10" jsclick="spotmap17ActionSpotMap">
+					<markericon url="spots/hotspot_information_user_defaultmap0.png" iconwidth="32" iconheight="32" shadow="false" iconanchor="center" />
+				</marker>
+				<marker name="spotmap18" lat="58.6655883789" lng="52.1733131409" heading="-106.000000000006" draggable="false" desc="spotmap18_tooltip" desctype="info" onhover="false" isscene="true" scene="pano11" jsclick="spotmap18ActionSpotMap">
+					<markericon url="spots/hotspot_information_user_defaultmap0.png" iconwidth="32" iconheight="32" shadow="false" iconanchor="center" />
+				</marker>
+		
+		
+		
+	</ptplugin>
+	
+	<action name="kolorMapJsReady-panotourmaps">
+		set(ptplugin[panotourmaps].jsready, true);
+	</action>
+	
+	
+	
+		<!-- PanotourMaps markers counter : 3 -->
+				<action name="spotmap16ActionSpotMap">
+          if (xml.scene != pano9,
+            mainloadscene(pano9);
+          );
+
+      lookat(get(panoview.h), get(panoview.v), get(panoview.fov));
+
+    
+
+</action>
+				<action name="spotmap17ActionSpotMap">
+          if (xml.scene != pano10,
+            mainloadscene(pano10);
+          );
+
+      lookat(get(panoview.h), get(panoview.v), get(panoview.fov));
+
+    
+
+</action>
+				<action name="spotmap18ActionSpotMap">
+          if (xml.scene != pano11,
+            mainloadscene(pano11);
+          );
+
+      lookat(get(panoview.h), get(panoview.v), get(panoview.fov));
+
+    
+
+</action>
+	
+	
+	
+	
+	
+	<!-- Begin PanotourMaps events and actions -->
+	<events name="panotourmapsEvents" 
+	onxmlcomplete="ifnot(panotourmapsMapLoaded,set(tour_displaymap,false););" 
+	onnewpano="panotourmapsActivateDefaultMarker();" 
+	onremovepano="panotourmapsUnselectMarker();" 
+	onviewchanged="panotourmapsOnviewchange()" 
+	onhidetourmap="panotourmapsClosetourmap();" 
+	onshowtourmap="if(tour_displaymap,panotourmapsOpentourmap(););" 
+	onenterfullscreen="panotourmapsUpdateMaxMapSize();" 
+	onexitfullscreen="panotourmapsUpdateMaxMapSize();" 
+	keep="true" />
+	
+	
+	<krpano panotourmapsMarkerDefaultSet="false" />
+	<krpano panotourmapsMapLoaded="false" />
+	
+	
+	<action name="panotourmapsUpdateMaxMapSize">
+		js(invokePluginFunction(panotourmaps, updateResizableMapMaxSize));
+	</action>
+	
+	<action name="kolorMapJsReadyLoop-panotourmaps">
+		if(ptplugin[panotourmaps].jsready,
+			stopdelayedcall(jsReadyLoopId-panotourmaps);
+			if(%1 == "close",
+				panotourmapsClosetourmap();
+			,
+				panotourmapsOpentourmap();
+			);
+		,
+			delayedcall(jsReadyLoopId-panotourmaps, 0.2, kolorMapJsReadyLoop-panotourmaps(%1));
+		);
+	</action>
+	
+	<action name="panotourmapsClosetourmap">
+		if(ptplugin[panotourmaps].jsready,
+			set(ptplugin[panotourmaps].state, false);
+			js(invokePluginFunction(panotourmaps, openCloseMap, close));
+		,
+			kolorMapJsReadyLoop-panotourmaps(close);
+		);
+	</action>
+	
+	
+	<action name="panotourmapsOpentourmap">
+		if(ptplugin[panotourmaps].jsready,
+			set(ptplugin[panotourmaps].state, true);
+			js(invokePluginFunction(panotourmaps, openCloseMap, open));
+		,
+			kolorMapJsReadyLoop-panotourmaps(open);
+		);
+	</action>
+	
+	
+	<action name="panotourmapsChangescene">
+		if(xml.scene != '%1',mainloadscene(%1);panotourmapsGoMarker(%2));
+	</action>
+	
+	<action name="panotourmapsOnviewchange">
+		if ( panotourmapsMapLoaded == true,
+			ifnot(ptplugin[panotourmaps].markerSelected.name == "",
+				js(invokePluginFunction(panotourmaps, changeDirection, get(view.hlookat), get(view.hfov)));
+			);
+		);
+	</action>
+	
+	<action name="panotourmapsGoMarker">
+		if ( panotourmapsMapLoaded == true,
+			
+			set(ptplugin[panotourmaps].markerSelected.name, %1);
+			set(ptplugin[panotourmaps].markerSelected.heading, get(view.hlookat));
+			set(ptplugin[panotourmaps].markerSelected.fov, get(view.hfov));
+			js(invokePluginFunction(panotourmaps, changeCurrentMarker, %1, get(view.hlookat), get(view.hfov), get(ptplugin[panotourmaps].centeronspots)));
+			
+			if( panotourmapsMarkerDefaultSet == false,
+				js(setMapDefaultMarker(panotourmaps, %1, get(view.hlookat), get(view.hfov)));
+				set(panotourmapsMarkerDefaultSet,true);
+			);
+		);
+	</action>
+	
+	<action name="panotourmapsUnselectMarker">
+		set(ptplugin[panotourmaps].markerSelected.name, "");
+		js(invokePluginFunction(panotourmaps, unselectCurrentMarker));
+		
+		js(setMapDefaultMarker(panotourmaps, null, null, null));
+	</action>
+
+	<action name="panotourmapsActivateDefaultMarker">
+		set(panotourmapsMapLoaded, true);
+
+		set(panotourmapsMapSpotFound, false);
+		set(defaultmarkerinc-wait,50);
+		for(set(defaultmarkerinc,0), defaultmarkerinc LT ptplugin[panotourmaps].marker.count , inc(defaultmarkerinc),
+			if(defaultmarkerinc-wait == defaultmarkerinc,
+				add(defaultmarkerinc-wait,50);
+				wait(0);
+			);
+			if(ptplugin[panotourmaps].marker[get(defaultmarkerinc)].isscene == true,
+				if(panotourmapsMapSpotFound == false,
+					if(ptplugin[panotourmaps].marker[get(defaultmarkerinc)].scene == xml.scene,
+						ifnot(ptplugin[panotourmaps].marker[get(defaultmarkerinc)].name == ptplugin[panotourmaps].markerSelected.name,
+							panotourmapsGoMarker(get(ptplugin[panotourmaps].marker[get(defaultmarkerinc)].name));
+						);
+						set(panotourmapsMapSpotFound, true);
+					);
+				);
+			);
+		);
+		
+		if(panotourmapsMapSpotFound == false,
+			panotourmapsUnselectMarker();
+		);
+	</action>
+	
+
+  <!-- ***************** -->
+  <!-- Urban Control Bar -->
+  <!-- ***************** -->
+
+
+  <krpano theme12barbuilt="false" theme12backgroundwidthwhenclosed="0" theme12backgroundwidthwhenopened="0" theme12IsOpened="false" />
+  <events name="theme12barevents" onxmlcomplete="theme12buildMenuBar();" keep="true"/>
+  <action name="theme12buildMenuBar">
+    ifnot (theme12barbuilt, theme12buildMenu(); set(theme12barbuilt, true););
+  </action>
+
+  <style name="theme12_btn_style"
+         keep="true"
+         edge="right"
+         align="right"
+         x="0" y="0"
+         height="40" width="40"
+         crop="0|0|50|50"
+         onovercrop="0|50|50|50"
+         ondowncrop="0|100|50|50"
+         onhover="showTooltip('plugin', theme12menuTooltipStyle, bottom);"
+         onout="hideTooltip();"
+         />
+
+    <layer name="theme12_menu_bg"
+            keep="true"
+            type="container"
+            zorder="5"
+            width="40"
+            height="40"
+            align="bottom"
+            x="0" y="10"
+            maskchildren="true"
+            rotate="0"
+            visible="false"
+            >
+
+
+    <layer name="theme12btn_ctrlmode_move_to"
+            url="%FIRSTXML%/graphics/urbancontrolbar/btn_move_to.png"
+            style="theme12_btn_style"
+            tooltip="controlBar_urbanctrlmodeMoveTip"
+            onclick="setControlModeMoveTo();
+"
+            visible="false"
+            devices="desktop"
+            />
+    <layer name="theme12btn_ctrlmode_drag_to"
+            url="%FIRSTXML%/graphics/urbancontrolbar/btn_drag_to.png"
+            style="theme12_btn_style"
+            tooltip="controlBar_urbanctrlmodeDragTip"
+            onclick="setControlModeDragTo();
+"
+            visible="false"
+            devices="desktop"
+            />
+
+    <layer name="theme12btn_in"
+            url="%FIRSTXML%/graphics/urbancontrolbar/btn_zoom_in.png"
+            ondown="set(fov_moveforce, -1);
+"
+            onup="set(fov_moveforce, 0);
+"
+            style="theme12_btn_style"
+            tooltip="controlBar_urbanzoomInTip"
+            devices="desktop"
+            visible="false"
+            />
+    <layer name="theme12btn_out"
+            url="%FIRSTXML%/graphics/urbancontrolbar/btn_zoom_out.png"
+            ondown="set(fov_moveforce, +1);
+"
+            onup="set(fov_moveforce, 0);
+"
+            style="theme12_btn_style"
+            tooltip="controlBar_urbanzoomOutTip"
+            devices="desktop"
+            visible="false"
+            />
+
+    <layer name="theme12btn_left"
+            url="%FIRSTXML%/graphics/urbancontrolbar/btn_move_left.png"
+            ondown="set(hlookat_moveforce, -1);
+"
+            onup="set(hlookat_moveforce, 0);
+"
+            style="theme12_btn_style"
+            tooltip="controlBar_urbanmoveLeftTip"
+            devices="desktop"
+            visible="false"
+            />
+    <layer name="theme12btn_right"
+            url="%FIRSTXML%/graphics/urbancontrolbar/btn_move_right.png"
+            ondown="set(hlookat_moveforce, +1);
+"
+            onup="set(hlookat_moveforce, 0);
+"
+            style="theme12_btn_style"
+            tooltip="controlBar_urbanmoveRightTip"
+            devices="desktop"
+            visible="false"
+            />
+    <layer name="theme12btn_up"
+            url="%FIRSTXML%/graphics/urbancontrolbar/btn_move_up.png"
+            ondown="set(vlookat_moveforce, -1);
+"
+            onup="set(vlookat_moveforce, 0);
+"
+            style="theme12_btn_style"
+            tooltip="controlBar_urbanmoveUpTip"
+            devices="desktop"
+            visible="false"
+            />
+    <layer name="theme12btn_down"
+            url="%FIRSTXML%/graphics/urbancontrolbar/btn_move_down.png"
+            ondown="set(vlookat_moveforce, +1);
+"
+            onup="set(vlookat_moveforce, 0);
+"
+            style="theme12_btn_style"
+            tooltip="controlBar_urbanmoveDownTip"
+            devices="desktop"
+            visible="false"
+            x="0"
+            y="0"
+            />
+
+
+
+
+    <layer name="theme12btn_display_map"
+            url="%FIRSTXML%/graphics/urbancontrolbar/btn_map.png"
+            onclick="theme12displayMap();"
+            style="theme12_btn_style"
+            visible="false"
+            tooltip="controlBar_urbandisplayMapTip"
+            />
+    <layer name="theme12btn_hide_map"
+            url="%FIRSTXML%/graphics/urbancontrolbar/btn_map.png"
+            onclick="theme12hideMap();"
+            style="theme12_btn_style"
+            visible="false"
+            tooltip="controlBar_urbanhideMapTip"
+            />
+
+
+
+
+    <layer name="theme12btn_display_help"
+            url="%FIRSTXML%/graphics/urbancontrolbar/btn_help.png"
+            onclick="theme12displayHelp();"
+            style="theme12_btn_style"
+            devices="desktop"
+            visible="false"
+            tooltip="controlBar_urbandisplayHelpTip"
+            />
+    <layer name="theme12btn_close_help"
+            url="%FIRSTXML%/graphics/urbancontrolbar/btn_help.png"
+            onclick="theme12closeHelp();"
+            style="theme12_btn_style"
+            visible="false"
+            devices="desktop"
+            tooltip="controlBar_urbanhideHelpTip"
+            />
+
+
+    <layer name="theme12btn_display_info"
+            url="%FIRSTXML%/graphics/urbancontrolbar/btn_info.png"
+            onclick="showTourInfo();
+"
+            style="theme12_btn_style"
+            visible="false"
+            tooltip="controlBar_urbandisplayInfoTip"
+            />
+
+    <layer name="theme12btn_close_info"
+            url="%FIRSTXML%/graphics/urbancontrolbar/btn_info.png"
+            onclick="hideTourInfo();
+"
+            style="theme12_btn_style"
+            visible="false"
+            tooltip="controlBar_urbanhideInfoTip"
+            />
+
+
+    <layer name="theme12btn_hidecontrols"
+           url="%FIRSTXML%/graphics/urbancontrolbar/btn_hide_controls.png"
+           style="theme12_btn_style"
+           onclick="theme12hideMenuControls();hideTourControls();
+"
+           visible="false"
+           tooltip="controlBar_urbanhideControlsTip"
+           />
+    <layer name="theme12btn_showcontrols"
+           url="%FIRSTXML%/graphics/urbancontrolbar/btn_show_controls.png"
+           style="theme12_btn_style"
+           onclick="theme12showMenuControls();showTourControls();
+"
+           tooltip="controlBar_urbandisplayControlsTip"
+           visible="false"
+           />
+ </layer>
+
+
+
+
+  <events name="theme12controlmodechangedevent" oncontrolmodechanged="theme12updateControlModeButtons();" keep="true"/>
+	<action name="theme12HideControlModeButtons">
+		set(layer[theme12btn_ctrlmode_move_to].visible, false);
+		set(layer[theme12btn_ctrlmode_drag_to].visible, false);
+	</action>
+	<action name="theme12ShowControlModeButtons">
+		if (tour_controlmodemousetype == "moveto",
+			set(layer[theme12btn_ctrlmode_drag_to].visible, true);
+			set(layer[theme12btn_ctrlmode_move_to].visible, false);
+		,
+			set(layer[theme12btn_ctrlmode_move_to].visible, true);
+			set(layer[theme12btn_ctrlmode_drag_to].visible, false);
+		);
+	</action>
+	<action name="theme12updateControlModeButtons">
+	if (device.desktop,
+		set(theme12DisplayControlModeButtons, false);
+		if (theme12IsOpened, set(theme12DisplayControlModeButtons, true););
+		if (theme12DisplayControlModeButtons,
+			theme12ShowControlModeButtons();
+		,
+			theme12HideControlModeButtons();
+		);
+	,
+		theme12HideControlModeButtons();
+	);
+	</action>
+
+
+  <action name="theme12hideMenuControls">
+    set(theme12IsOpened, false);
+    set(layer[theme12btn_hidecontrols].visible, false);
+    set(layer[theme12btn_showcontrols].visible, true);
+
+
+if (device.desktop,
+	set(layer[theme12btn_in].visible, false);
+	set(layer[theme12btn_out].visible, false);
+);
+if (device.desktop,
+	set(layer[theme12btn_up].visible, false);
+	set(layer[theme12btn_down].visible, false);
+);
+if (device.desktop,
+	set(layer[theme12btn_left].visible, false);
+	set(layer[theme12btn_right].visible, false);
+);
+	theme12updateHelpButtons();
+
+	theme12updateInfoButtons();
+
+
+
+	theme12updateControlModeButtons();
+
+	theme12updateMapButtons();
+
+    set(layer[theme12_menu_bg].width , get(theme12backgroundwidthwhenclosed));
+  set(layer[theme12_menu_bg].visible, true);
+  </action>
+  <action name="theme12showMenuControls">
+    set(theme12IsOpened, true);
+    set(layer[theme12btn_hidecontrols].visible, true);
+    set(layer[theme12btn_showcontrols].visible, false);
+	set(layer[theme12_menu_bg].visible, true);
+
+
+if (device.desktop,
+	set(layer[theme12btn_in].visible, true);
+	set(layer[theme12btn_out].visible, true);
+);
+if (device.desktop,
+	set(layer[theme12btn_up].visible, true);
+	set(layer[theme12btn_down].visible, true);
+);
+if (device.desktop,
+	set(layer[theme12btn_left].visible, true);
+	set(layer[theme12btn_right].visible, true);
+);
+	theme12updateHelpButtons();
+
+	theme12updateInfoButtons();
+
+
+
+	theme12updateControlModeButtons();
+
+	theme12updateMapButtons();
+
+
+    set(layer[theme12_menu_bg].width, get(theme12backgroundwidthwhenopened));
+  </action>
+
+	<layer name="theme12helpScreenBg" align="center" keep="true" onclick="theme12closeHelp();" url="%FIRSTXML%/graphics/urbancontrolbar/help_screen_bg.png" visible="false" rotate="-25" height="50%" width="prop" zorder="97">
+		<layer name="theme12helpScreenShadow" align="center" keep="true" onclick="theme12closeHelp();" url="%FIRSTXML%/graphics/urbancontrolbar/help_screen_shadow.png"   rotate="12"  height="100%" width="prop" x="0" zorder="0" blendmode="multiply"/>
+		<layer name="theme12helpScreenMouse" align="center" keep="true" onclick="theme12closeHelp();" url="%FIRSTXML%/graphics/urbancontrolbar/help_screen_mouse.png" rotate="25"  height="100%" width="prop" x="0" zorder="1">
+			<layer name="theme12helpScreenKeyboard" align="center" keep="true" onclick="theme12closeHelp();" url="%FIRSTXML%/graphics/urbancontrolbar/help_screen_keyboard.png" rotate="-25" height="100%" width="prop" x="0">
+				<layer name="theme12helpScreenFg" align="center" keep="true" onclick="theme12closeHelp();" url="%FIRSTXML%/graphics/urbancontrolbar/help_screen_outline.png" rotate="45" height="100%" width="prop" x="0" onover="tween(rotate, 0, 0.2)" onout="tween(rotate, 2, 0.2)" displayed="false" />
+			</layer>
+		</layer>
+	</layer>
+
+	<action name="theme12displayHelp">
+	if (device.desktop,
+		set(layer[theme12helpScreenFg].displayed, true);
+		set(layer[theme12helpScreenBg].visible, true);
+		set(layer[theme12helpScreenShadow].visible, true);
+		set(layer[theme12helpScreenMouse].visible, true);
+		set(layer[theme12helpScreenKeyboard].visible, true);
+		set(layer[theme12helpScreenFg].visible , true);
+		tween(layer[theme12helpScreenBg].rotate, 0, 1);
+		tween(layer[theme12helpScreenShadow].rotate, 0, 1);
+		tween(layer[theme12helpScreenMouse].rotate, 0, 1);
+		tween(layer[theme12helpScreenKeyboard].rotate, 0, 1);
+		tween(layer[theme12helpScreenFg].rotate, 2, 1);
+		theme12updateHelpButtons();
+	);
+	</action>
+	<action name="theme12closeHelp">
+	if (device.desktop,
+		set(layer[theme12helpScreenFg].displayed, false);
+		tween(layer[theme12helpScreenKeyboard].rotate, -25, 1, easeOutQuad, set(layer[theme12helpScreenKeyboard].visible,false););
+		tween(layer[theme12helpScreenMouse].rotate, 25, 1, easeOutQuad, set(layer[theme12helpScreenMouse].visible,false););
+		tween(layer[theme12helpScreenShadow].rotate, 12, 1, easeOutQuad, set(layer[theme12helpScreenShadow].visible,false););
+		tween(layer[theme12helpScreenBg].rotate, -25, 1, easeOutQuad, set(layer[theme12helpScreenBg].visible,false););
+		tween(layer[theme12helpScreenFg].rotate, 45, 1, easeOutQuad, set(layer[theme12helpScreenFg].visible,false););
+		theme12updateHelpButtons();
+	);
+	</action>
+	<action name="theme12HideHelpButtons">
+		set(layer[theme12btn_display_help].visible, false);
+		set(layer[theme12btn_close_help].visible, false);
+	</action>
+	<action name="theme12ShowHelpButtons">
+		if (layer[theme12helpScreenFg].displayed,
+			set(layer[theme12btn_close_help].visible, true);
+			set(layer[theme12btn_display_help].visible, false);
+		,
+			set(layer[theme12btn_display_help].visible, true);
+			set(layer[theme12btn_close_help].visible, false);
+		);
+	</action>
+	<action name="theme12updateHelpButtons">
+	if (device.desktop,
+		set(theme12DisplayHelpButtons, false);
+		if (theme12IsOpened, set(theme12DisplayHelpButtons, true););
+		if (theme12DisplayHelpButtons,
+			theme12ShowHelpButtons();
+		,
+			theme12HideHelpButtons();
+		);
+	,
+		theme12HideHelpButtons();
+	);
+	</action>
+
+
+	<events name="theme12hideshowinfoevent" 
+		onhidetourinfo="theme12updateInfoButtons();" 
+		onshowtourinfo="theme12updateInfoButtons();" 
+		keep="true" />
+	<action name="theme12HideInfoButtons">
+		set(layer[theme12btn_display_info].visible, false);
+		set(layer[theme12btn_close_info].visible, false);
+	</action>
+	<action name="theme12ShowInfoButtons">
+		if (tour_displayinfo,
+			set(layer[theme12btn_close_info].visible, true);
+			set(layer[theme12btn_display_info].visible, false);
+		,
+			set(layer[theme12btn_display_info].visible, true);
+			set(layer[theme12btn_close_info].visible, false);
+		);
+	</action>
+	<action name="theme12updateInfoButtons">
+		set(theme12DisplayInfoButtons, false);
+		if (theme12IsOpened, set(theme12DisplayInfoButtons, true););
+		if (theme12DisplayInfoButtons,
+			theme12ShowInfoButtons();
+		,
+			theme12HideInfoButtons();
+		);
+	</action>
+
+  <action name="theme12displayMap">showMap();
+
+  </action>
+  <action name="theme12hideMap">hideMap();
+
+  </action>
+  
+  <events name="theme12displaymapchangeevent"
+          onshowtourmap="theme12updateMapButtons();"
+          onhidetourmap="theme12updateMapButtons();"
+          keep="true"/>
+	<action name="theme12HideMapButtons">
+		set(layer[theme12btn_display_map].visible, false);
+		set(layer[theme12btn_hide_map].visible, false);
+	</action>
+	<action name="theme12ShowMapButtons">
+		if (tour_displaymap,
+			set(layer[theme12btn_hide_map].visible, true);
+			set(layer[theme12btn_display_map].visible, false);
+		,
+			set(layer[theme12btn_display_map].visible, true);
+			set(layer[theme12btn_hide_map].visible, false);
+		);
+	</action>
+	<action name="theme12updateMapButtons">
+		set(theme12DisplayMapButtons, false);
+		if (theme12IsOpened, set(theme12DisplayMapButtons, true););
+		if (theme12DisplayMapButtons,
+			theme12ShowMapButtons();
+		,
+			theme12HideMapButtons();
+		);
+	</action>
+
+
+
+
+<layer name="theme12menuTooltipStyle"
+	keep="true"
+	enabled="false"
+	capture="false"
+	url="%FIRSTXML%/graphics/textfield.swf"
+	align="center"
+	background="false"
+	border="false"
+	css="color:#000000;font-family:Helvetica;font-weight:bold;font-size:14px;text-align:left;"
+	height="20"
+	autoheight="true"
+	autowidth="auto"
+	padding="2"
+	xoffset="0"
+	yoffset="0"
+	selectable="false"
+	zorder="0"
+	visible="false"
+	html=""
+	edge="bottom"
+/>
+
+  <action name="theme12buildMenu">
+    
+    set(theme12button_pos, 0);
+
+	set(theme12backgroundwidthwhenclosed, 40);
+    set(layer[theme12btn_hidecontrols].x, get(theme12button_pos));
+    set(layer[theme12btn_showcontrols].x, get(theme12button_pos));
+    inc(theme12button_pos, 45);
+
+
+    set(layer[theme12btn_display_info].x, get(theme12button_pos));
+    set(layer[theme12btn_close_info].x  , get(theme12button_pos));
+    inc(theme12button_pos, 45);
+
+
+      if (device.desktop,
+        set(layer[theme12btn_display_help].x, get(theme12button_pos));
+        set(layer[theme12btn_close_help].x  , get(theme12button_pos));
+        inc(theme12button_pos, 45);
+      );
+
+
+      set(layer[theme12btn_display_map].x , get(theme12button_pos));
+      set(layer[theme12btn_hide_map].x    , get(theme12button_pos));
+      inc(theme12button_pos, 45);
+
+
+
+
+    if (device.desktop,
+      set(layer[theme12btn_ctrlmode_drag_to].x, get(theme12button_pos));
+      set(layer[theme12btn_ctrlmode_move_to].x, get(theme12button_pos));
+      inc(theme12button_pos, 45);
+    );
+
+
+
+      if (device.desktop,
+        set(layer[theme12btn_right].x, get(theme12button_pos));
+        inc(theme12button_pos, 45);
+        set(layer[theme12btn_left].x, get(theme12button_pos));
+        inc(theme12button_pos, 45);
+      );
+
+      if (device.desktop,
+        set(layer[theme12btn_down].x, get(theme12button_pos));
+        inc(theme12button_pos, 45);
+        set(layer[theme12btn_up].x, get(theme12button_pos));
+        inc(theme12button_pos, 45);
+      );
+      if (device.desktop,
+        set(layer[theme12btn_out].x, get(theme12button_pos));
+        inc(theme12button_pos, 45);
+        set(layer[theme12btn_in].x, get(theme12button_pos));
+        inc(theme12button_pos, 45);
+      );
+
+      dec(theme12button_pos, 5);
+
+      set(theme12backgroundwidthwhenopened, get(theme12button_pos));
+      set(layer[theme12_menu_bg].width, get(theme12backgroundwidthwhenopened));
+	
+	
+
+    </action>
+
+	<events name="theme12StartTourEvents" onTourStart="theme12CallOnStartTour();" keep="true" />
+	
+	<action name="theme12CallOnStartTour">
+		
+		theme12showMenuControls();
+	</action>
+
+
+  <!-- Hide / Show Controls -->
+  <action name="hideTourControls">set(tour_displaycontrols, false);events.dispatch(hidetourcontrols);</action>
+  <action name="showTourControls">set(tour_displaycontrols, true); events.dispatch(showtourcontrols);</action>
+
+
+  <!-- Tour Information -->
+  <action name="hideTourInfo">set(tour_displayinfo, false);events.dispatch(onhidetourinfo);</action>
+  <action name="showTourInfo">set(tour_displayinfo, true); events.dispatch(onshowtourinfo);</action>
+
+
+  <!-- MAP -->
+  <action name="hideMap">set(tour_displaymap, false);events.dispatch(onhidetourmap);</action>
+  <action name="showMap">set(tour_displaymap, true); events.dispatch(onshowtourmap);</action>
+
+</krpano>
